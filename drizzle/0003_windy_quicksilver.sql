@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX `one_draft_final_exam` ON `final_exam_sessions` (`status`) WHERE "final_exam_sessions"."status" = 'draft';

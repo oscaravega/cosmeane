@@ -1,0 +1,2762 @@
+[
+  {
+    "id": "m1-mecanica",
+    "title": "Mecánica corporal y ergonomía",
+    "description": "8 preguntas para comprobar lo que aprendiste en este tema.",
+    "source": "Módulo 1 · pp. 2–4 y 21–22",
+    "questions": [
+      {
+        "id": "m1-mecanica-01",
+        "topicId": "mecanica",
+        "prompt": "¿Qué describe mejor la ergonomía aplicada al masaje?",
+        "options": [
+          "Mantener una postura fija durante toda la sesión.",
+          "Aumentar la presión mediante la fuerza de las manos.",
+          "Elegir maniobras según la historia del masaje.",
+          "Adaptar espacio, equipo y trabajo a la profesional."
+        ],
+        "answer": 3,
+        "explanation": "La ergonomía adapta las condiciones de trabajo para disminuir fatiga y prevenir lesiones musculoesqueléticas.",
+        "optionExplanations": [
+          "Una postura fija no define ergonomía; el entorno y la forma de trabajo deben adaptarse.",
+          "El objetivo no es aumentar la fuerza manual, sino reducir cargas innecesarias.",
+          "La historia aporta contexto, pero no define la adaptación del puesto de trabajo.",
+          "La ergonomía adapta las condiciones de trabajo para disminuir fatiga y prevenir lesiones musculoesqueléticas."
+        ],
+        "hint": "Piensa en la relación entre la profesional y su entorno.",
+        "source": "Módulo 1 · p. 2"
+      },
+      {
+        "id": "m1-mecanica-02",
+        "topicId": "mecanica",
+        "prompt": "La mecánica corporal se refiere principalmente a…",
+        "options": [
+          "Cómo utilizas postura, equilibrio y movimiento.",
+          "La organización de los envases en la cabina.",
+          "La clasificación de aparatos no manuales.",
+          "Los cambios visibles de temperatura en la piel."
+        ],
+        "answer": 0,
+        "explanation": "Describe la manera de utilizar el cuerpo para realizar la actividad, incluyendo postura, equilibrio, músculos y movimiento.",
+        "optionExplanations": [
+          "Describe la manera de utilizar el cuerpo para realizar la actividad, incluyendo postura, equilibrio, músculos y movimiento.",
+          "Organizar material pertenece al entorno de trabajo, no a la definición de mecánica corporal.",
+          "Esa clasificación describe equipos, no el uso de tu cuerpo.",
+          "Ese es un posible efecto del masaje, no la mecánica de la profesional."
+        ],
+        "hint": "Distingue el entorno de la manera de moverte.",
+        "source": "Módulo 1 · p. 2"
+      },
+      {
+        "id": "m1-mecanica-03",
+        "topicId": "mecanica",
+        "prompt": "¿Qué combinación explica la carga física del trabajo de masaje?",
+        "options": [
+          "Luz tenue, música y privacidad visual.",
+          "Repetición, presión y permanencia prolongada de pie.",
+          "Uso de aceites, aromas y textiles limpios.",
+          "Lectura de antecedentes y registro de resultados."
+        ],
+        "answer": 1,
+        "explanation": "El módulo destaca repetición, presión sostenida, posturas y uso continuo de manos, muñecas, hombros y espalda.",
+        "optionExplanations": [
+          "Describen ambiente, no las cargas físicas de las maniobras.",
+          "El módulo destaca repetición, presión sostenida, posturas y uso continuo de manos, muñecas, hombros y espalda.",
+          "Son elementos de la cabina, pero no explican directamente la carga musculoesquelética.",
+          "Son tareas importantes, pero no corresponden a las exigencias físicas destacadas."
+        ],
+        "hint": "Piensa en lo que acumulas a lo largo de varias sesiones.",
+        "source": "Módulo 1 · p. 3"
+      },
+      {
+        "id": "m1-mecanica-04",
+        "topicId": "mecanica",
+        "prompt": "¿Qué alineación concuerda con el módulo?",
+        "options": [
+          "Columna flexionada y rodillas bloqueadas.",
+          "Pies juntos y rodillas completamente rígidas.",
+          "Columna neutra y hombros relajados.",
+          "Cabeza adelantada y hombros elevados."
+        ],
+        "answer": 2,
+        "explanation": "La columna neutra y los hombros relajados forman parte de los principios de buena mecánica corporal.",
+        "optionExplanations": [
+          "La flexión excesiva del tronco y las rodillas bloqueadas no ofrecen la adaptación indicada.",
+          "El módulo recomienda base estable y ligera flexión de rodillas y caderas.",
+          "La columna neutra y los hombros relajados forman parte de los principios de buena mecánica corporal.",
+          "Adelantar excesivamente la cabeza y elevar los hombros contradice los principios del módulo."
+        ],
+        "hint": "Busca una posición que evite compensaciones innecesarias.",
+        "source": "Módulo 1 · p. 4"
+      },
+      {
+        "id": "m1-mecanica-05",
+        "topicId": "mecanica",
+        "prompt": "Para generar presión, ¿de dónde debe partir principalmente la transferencia de peso?",
+        "options": [
+          "De una contracción continua de los pulgares.",
+          "De elevar los hombros durante la maniobra.",
+          "De inclinar la cabeza hacia la zona tratada.",
+          "De las piernas y del desplazamiento corporal."
+        ],
+        "answer": 3,
+        "explanation": "Transferir el peso desde las piernas permite que el cuerpo aporte presión sin depender solo de manos o brazos.",
+        "optionExplanations": [
+          "Concentra el esfuerzo en una zona pequeña en vez de distribuirlo corporalmente.",
+          "Elevar los hombros crea una compensación contraria a mantenerlos relajados.",
+          "Adelantar la cabeza no es la forma indicada de transferir peso.",
+          "Transferir el peso desde las piernas permite que el cuerpo aporte presión sin depender solo de manos o brazos."
+        ],
+        "hint": "Recuerda que la mano transmite el contacto, pero no necesita producir toda la fuerza.",
+        "source": "Módulo 1 · p. 21"
+      },
+      {
+        "id": "m1-mecanica-06",
+        "topicId": "mecanica",
+        "prompt": "¿Qué secuencia respeta el uso del peso corporal?",
+        "options": [
+          "Alinear, acercarse, transferir y regresar suavemente.",
+          "Alejarse, extender los brazos y empujar de golpe.",
+          "Bloquear rodillas, tensar hombros y presionar.",
+          "Presionar primero y corregir la postura al terminar."
+        ],
+        "answer": 0,
+        "explanation": "La alineación y la cercanía preceden una transferencia gradual; el regreso se realiza sin brusquedad.",
+        "optionExplanations": [
+          "La alineación y la cercanía preceden una transferencia gradual; el regreso se realiza sin brusquedad.",
+          "Alejarse y empujar bruscamente contradice cercanía y gradualidad.",
+          "Bloquear y tensar sustituye una base adaptable por rigidez.",
+          "La postura debe prepararse antes y mantenerse durante la maniobra."
+        ],
+        "hint": "La progresión y el regreso importan tanto como el contacto.",
+        "source": "Módulo 1 · p. 21"
+      },
+      {
+        "id": "m1-mecanica-07",
+        "topicId": "mecanica",
+        "prompt": "Aneth debe elevar los hombros para trabajar. ¿Qué ajuste conviene revisar?",
+        "options": [
+          "Si debe aplicar la presión solo con las manos.",
+          "Si la camilla está demasiado alta.",
+          "Si la camilla está demasiado baja.",
+          "Si necesita cerrar más la base de apoyo."
+        ],
+        "answer": 1,
+        "explanation": "Según el módulo, una altura excesiva puede elevar hombros y sobrecargar brazos y muñecas.",
+        "optionExplanations": [
+          "Cambiar a fuerza manual no resuelve el problema de altura.",
+          "Según el módulo, una altura excesiva puede elevar hombros y sobrecargar brazos y muñecas.",
+          "La camilla muy baja se relaciona más con flexión excesiva de espalda.",
+          "Cerrar la base no corrige la necesidad de levantar los hombros."
+        ],
+        "hint": "Relaciona el síntoma postural con la altura del apoyo.",
+        "source": "Módulo 1 · p. 22"
+      },
+      {
+        "id": "m1-mecanica-08",
+        "topicId": "mecanica",
+        "prompt": "¿Cómo usar la altura de muñeca o nudillos como referencia de camilla?",
+        "options": [
+          "Como razón para trabajar siempre lo más bajo posible.",
+          "Como señal de que no hace falta revisar los hombros.",
+          "Como punto inicial que se adapta a la técnica.",
+          "Como medida fija para toda persona y maniobra."
+        ],
+        "answer": 2,
+        "explanation": "El módulo ofrece una referencia aproximada, no una altura obligatoria idéntica para todas las técnicas y profesionales.",
+        "optionExplanations": [
+          "Una camilla demasiado baja aumenta la flexión de la espalda.",
+          "La referencia no sustituye comprobar la postura durante el trabajo.",
+          "El módulo ofrece una referencia aproximada, no una altura obligatoria idéntica para todas las técnicas y profesionales.",
+          "El propio módulo indica ajustar según la técnica."
+        ],
+        "hint": "Una referencia orienta; observa también la postura real.",
+        "source": "Módulo 1 · p. 22"
+      }
+    ]
+  },
+  {
+    "id": "m1-posturas",
+    "title": "Las ocho posiciones de trabajo",
+    "description": "8 preguntas para comprobar lo que aprendiste en este tema.",
+    "source": "Módulo 1 · pp. 5–20",
+    "questions": [
+      {
+        "id": "m1-posturas-01",
+        "topicId": "posturas",
+        "prompt": "¿Qué posición facilita deslizamientos longitudinales transfiriendo peso de atrás hacia adelante?",
+        "options": [
+          "T’ai Chi.",
+          "Sentada al borde.",
+          "Semiarrodillada.",
+          "Ataque de esgrima."
+        ],
+        "answer": 3,
+        "explanation": "Un pie adelantado y rodillas ligeramente flexionadas facilitan esa transferencia en maniobras largas.",
+        "optionExplanations": [
+          "Esta postura destaca cambios laterales de peso, no la transferencia longitudinal descrita.",
+          "Se asocia con precisión y poca presión, con un pie en el suelo.",
+          "Se caracteriza por una rodilla apoyada y trabajo con camillas bajas.",
+          "Un pie adelantado y rodillas ligeramente flexionadas facilitan esa transferencia en maniobras largas."
+        ],
+        "hint": "La dirección del desplazamiento es la clave.",
+        "source": "Módulo 1 · pp. 5–6"
+      },
+      {
+        "id": "m1-posturas-02",
+        "topicId": "posturas",
+        "prompt": "Para un amasamiento con transferencia lateral del peso, ¿qué postura encaja?",
+        "options": [
+          "T’ai Chi.",
+          "Oscilante.",
+          "Semiarrodillada.",
+          "Sentada al borde."
+        ],
+        "answer": 0,
+        "explanation": "Los pies separados y el cambio de peso de un lado al otro acompañan maniobras laterales y amplias.",
+        "optionExplanations": [
+          "Los pies separados y el cambio de peso de un lado al otro acompañan maniobras laterales y amplias.",
+          "La oscilante se describe como balanceo hacia adelante y atrás.",
+          "Su característica principal es apoyar una rodilla, no el desplazamiento lateral.",
+          "Esta posición prioriza precisión y descanso de pie, no la transferencia lateral amplia."
+        ],
+        "hint": "Busca la postura cuyo movimiento central es de lado a lado.",
+        "source": "Módulo 1 · pp. 7–8"
+      },
+      {
+        "id": "m1-posturas-03",
+        "topicId": "posturas",
+        "prompt": "En la postura con flexión de codo, ¿cómo se produce la presión?",
+        "options": [
+          "Moviendo solo la muñeca mientras el cuerpo permanece rígido.",
+          "Transfiriendo el peso hacia adelante con contacto del antebrazo.",
+          "Contrayendo con máxima fuerza el brazo flexionado.",
+          "Manteniendo todo el peso sobre el pie trasero."
+        ],
+        "answer": 1,
+        "explanation": "Se parte del ataque de esgrima y se usa el antebrazo; la presión no debe depender de una contracción excesiva del brazo.",
+        "optionExplanations": [
+          "No aprovecha el desplazamiento corporal y puede concentrar la carga.",
+          "Se parte del ataque de esgrima y se usa el antebrazo; la presión no debe depender de una contracción excesiva del brazo.",
+          "El módulo pide evitar que la presión dependa de una contracción excesiva.",
+          "La transferencia hacia adelante es la que genera la presión descrita."
+        ],
+        "hint": "Relaciona superficie de contacto y origen del esfuerzo.",
+        "source": "Módulo 1 · pp. 9–10"
+      },
+      {
+        "id": "m1-posturas-04",
+        "topicId": "posturas",
+        "prompt": "¿Qué precaución corresponde a sentarse al borde de la camilla?",
+        "options": [
+          "Retirar el pie del suelo para aumentar el alcance.",
+          "Considerarla estable en cualquier tipo de camilla.",
+          "Revisar especialmente la estabilidad si es estrecha o plegable.",
+          "Utilizarla para toda maniobra de presión profunda."
+        ],
+        "answer": 2,
+        "explanation": "El módulo advierte que esta posición no siempre es recomendable, especialmente en camillas estrechas o plegables.",
+        "optionExplanations": [
+          "El pie apoyado contribuye a conservar el equilibrio.",
+          "La advertencia del módulo exige precisamente revisar esa estabilidad.",
+          "El módulo advierte que esta posición no siempre es recomendable, especialmente en camillas estrechas o plegables.",
+          "Se presenta para precisión y poca presión, no para toda maniobra profunda."
+        ],
+        "hint": "Piensa en el soporte que recibe el peso de la profesional.",
+        "source": "Módulo 1 · pp. 11–12"
+      },
+      {
+        "id": "m1-posturas-05",
+        "topicId": "posturas",
+        "prompt": "¿Desde dónde se describe la inclinación de la postura inclinada?",
+        "options": [
+          "Desde la región lumbar, dejando la pelvis atrás.",
+          "Desde el cuello, acercando la cabeza a las manos.",
+          "Desde los hombros, manteniéndolos elevados.",
+          "Desde los tobillos, conservando cabeza, columna y pelvis alineadas."
+        ],
+        "answer": 3,
+        "explanation": "El cuerpo se inclina alineado; no se trata de doblar excesivamente la columna.",
+        "optionExplanations": [
+          "Eso rompe la alineación descrita y concentra la flexión en la espalda.",
+          "La cabeza no debe ser el origen del movimiento.",
+          "Elevar hombros contradice la alineación y relajación recomendadas.",
+          "El cuerpo se inclina alineado; no se trata de doblar excesivamente la columna."
+        ],
+        "hint": "Distingue inclinar un conjunto alineado de encorvar el tronco.",
+        "source": "Módulo 1 · pp. 13–14"
+      },
+      {
+        "id": "m1-posturas-06",
+        "topicId": "posturas",
+        "prompt": "¿Qué caracteriza la postura oscilante?",
+        "options": [
+          "Balanceo rítmico adelante y atrás con contacto continuo.",
+          "Permanecer inmóvil con todo el peso en las manos.",
+          "Separar las manos del cliente en cada transferencia.",
+          "Transferir peso únicamente de derecha a izquierda."
+        ],
+        "answer": 0,
+        "explanation": "El movimiento nace desde las piernas y las manos conservan contacto para mantener continuidad y fluidez.",
+        "optionExplanations": [
+          "El movimiento nace desde las piernas y las manos conservan contacto para mantener continuidad y fluidez.",
+          "La postura implica transferencia rítmica, no inmovilidad.",
+          "El módulo destaca mantener contacto continuo.",
+          "Ese patrón corresponde más a la descripción de T’ai Chi."
+        ],
+        "hint": "El nombre sugiere una alternancia repetida.",
+        "source": "Módulo 1 · pp. 15–16"
+      },
+      {
+        "id": "m1-posturas-07",
+        "topicId": "posturas",
+        "prompt": "¿Qué medida corresponde a la postura semiarrodillada?",
+        "options": [
+          "Elegirla aunque la profesional tenga lesión de rodilla.",
+          "Acolchar la rodilla y alternar la pierna de apoyo.",
+          "Mantener la misma rodilla apoyada toda la sesión.",
+          "Redondear la espalda para acercarse a los pies."
+        ],
+        "answer": 1,
+        "explanation": "El módulo recomienda proteger la rodilla, cambiar el apoyo y evitar mantener demasiado tiempo la posición.",
+        "optionExplanations": [
+          "El material recomienda evitarla ante lesiones de rodilla.",
+          "El módulo recomienda proteger la rodilla, cambiar el apoyo y evitar mantener demasiado tiempo la posición.",
+          "Se aconseja cambiar el apoyo y no prolongar la posición.",
+          "El tronco se mantiene erguido para evitar flexión excesiva."
+        ],
+        "hint": "Considera el punto que soporta peso sobre la superficie.",
+        "source": "Módulo 1 · pp. 17–18"
+      },
+      {
+        "id": "m1-posturas-08",
+        "topicId": "posturas",
+        "prompt": "¿Cómo clasifica el módulo el apoyo del antebrazo?",
+        "options": [
+          "Como postura independiente sin transferencia de peso.",
+          "Como técnica exclusiva para las manos del cliente.",
+          "Como adaptación de otras posturas.",
+          "Como posición obligatoria exclusivamente sentada."
+        ],
+        "answer": 2,
+        "explanation": "Puede añadirse a ataque, oscilante o lateral; el módulo aclara que no es una postura independiente.",
+        "optionExplanations": [
+          "Es una adaptación y la presión procede del desplazamiento corporal.",
+          "Se propone para grandes masas musculares, como espalda, glúteos y muslos.",
+          "Puede añadirse a ataque, oscilante o lateral; el módulo aclara que no es una postura independiente.",
+          "No está limitada a sentarse; se combina con otras posturas."
+        ],
+        "hint": "Una superficie de contacto puede combinarse con varias bases de apoyo.",
+        "source": "Módulo 1 · pp. 19–20"
+      }
+    ]
+  },
+  {
+    "id": "m1-preparacion",
+    "title": "Prepararte y colocar al cliente",
+    "description": "8 preguntas para comprobar lo que aprendiste en este tema.",
+    "source": "Módulo 1 · pp. 23–24 y 54",
+    "questions": [
+      {
+        "id": "m1-preparacion-01",
+        "topicId": "preparacion",
+        "prompt": "¿Qué duración propone el módulo para prepararse antes del masaje?",
+        "options": [
+          "Aproximadamente 15 a 20 segundos.",
+          "Aproximadamente 20 a 30 minutos.",
+          "Exactamente una hora en todas las sesiones.",
+          "Aproximadamente 3 a 5 minutos."
+        ],
+        "answer": 3,
+        "explanation": "Ese es el intervalo propuesto para respirar, movilizar articulaciones y ensayar posturas.",
+        "optionExplanations": [
+          "Es menor que el intervalo indicado y no coincide con la referencia del material.",
+          "No es el tiempo de preparación que indica el módulo.",
+          "El módulo no exige una hora ni un tiempo rígido universal.",
+          "Ese es el intervalo propuesto para respirar, movilizar articulaciones y ensayar posturas."
+        ],
+        "hint": "Es una preparación breve previa al trabajo.",
+        "source": "Módulo 1 · p. 23"
+      },
+      {
+        "id": "m1-preparacion-02",
+        "topicId": "preparacion",
+        "prompt": "¿Qué respiración se incluye en la preparación?",
+        "options": [
+          "Respiración diafragmática.",
+          "Apnea mantenida durante las transferencias.",
+          "Respiración rápida y forzada de forma continua.",
+          "Respirar únicamente al terminar el masaje."
+        ],
+        "answer": 0,
+        "explanation": "El módulo abre la preparación con respiración diafragmática, junto con movilidad suave.",
+        "optionExplanations": [
+          "El módulo abre la preparación con respiración diafragmática, junto con movilidad suave.",
+          "Contener el aire no corresponde a la preparación descrita.",
+          "No es la técnica respiratoria indicada en el módulo.",
+          "La respiración se integra antes y se coordina con el movimiento."
+        ],
+        "hint": "Se relaciona con el diafragma y una preparación tranquila.",
+        "source": "Módulo 1 · p. 23"
+      },
+      {
+        "id": "m1-preparacion-03",
+        "topicId": "preparacion",
+        "prompt": "¿Cuál rutina representa mejor la preparación corporal del módulo?",
+        "options": [
+          "Solo revisar la iluminación de la cabina.",
+          "Movilidad suave de varias articulaciones y ensayo de posturas.",
+          "Solo abrir y cerrar las manos varias veces.",
+          "Solo estirar el cuello con movimientos bruscos."
+        ],
+        "answer": 1,
+        "explanation": "Incluye cuello, hombros, codos, muñecas, manos, tórax, caderas, rodillas, tobillos y transferencias de peso.",
+        "optionExplanations": [
+          "Es preparación del ambiente, no de la mecánica de la profesional.",
+          "Incluye cuello, hombros, codos, muñecas, manos, tórax, caderas, rodillas, tobillos y transferencias de peso.",
+          "Ese ejercicio sí aparece, pero no resume la preparación corporal completa.",
+          "El módulo propone movilidad cervical suave, no brusca ni como único trabajo."
+        ],
+        "hint": "El masaje involucra más partes del cuerpo que las manos.",
+        "source": "Módulo 1 · p. 23"
+      },
+      {
+        "id": "m1-preparacion-04",
+        "topicId": "preparacion",
+        "prompt": "¿Qué significa decúbito supino?",
+        "options": [
+          "Estar sentado al borde de la camilla.",
+          "Estar arrodillado frente a la camilla.",
+          "Estar acostado boca arriba.",
+          "Estar acostado boca abajo."
+        ],
+        "answer": 2,
+        "explanation": "En supino, la espalda descansa sobre la superficie y la mirada se dirige hacia arriba.",
+        "optionExplanations": [
+          "Es una postura sentada, no un decúbito supino.",
+          "Describe una postura de apoyo sobre rodillas, no la posición supina.",
+          "En supino, la espalda descansa sobre la superficie y la mirada se dirige hacia arriba.",
+          "Boca abajo corresponde al decúbito prono."
+        ],
+        "hint": "Piensa hacia dónde mira el rostro.",
+        "source": "Módulo 1 · p. 24"
+      },
+      {
+        "id": "m1-preparacion-05",
+        "topicId": "preparacion",
+        "prompt": "¿Qué significa decúbito prono?",
+        "options": [
+          "Estar acostado boca arriba.",
+          "Estar sentado con la espalda recta.",
+          "Estar de pie con las rodillas flexionadas.",
+          "Estar acostado boca abajo."
+        ],
+        "answer": 3,
+        "explanation": "El prono se define por apoyar la parte anterior del cuerpo, boca abajo.",
+        "optionExplanations": [
+          "Esa definición corresponde al supino.",
+          "Sentarse no es un decúbito prono.",
+          "Es una posición de pie, no una posición acostada.",
+          "El prono se define por apoyar la parte anterior del cuerpo, boca abajo."
+        ],
+        "hint": "Compara con el supino, cuya espalda está apoyada.",
+        "source": "Módulo 1 · p. 24"
+      },
+      {
+        "id": "m1-preparacion-06",
+        "topicId": "preparacion",
+        "prompt": "¿Para qué se emplean cojines, almohadas o rodillos?",
+        "options": [
+          "Para adaptar el apoyo y conservar comodidad y alineación.",
+          "Para impedir que el cliente cambie de opinión.",
+          "Para sustituir la valoración previa de la piel.",
+          "Para mantener una misma posición en cualquier cliente."
+        ],
+        "answer": 0,
+        "explanation": "El módulo propone estos apoyos para cuidar la posición, especialmente cuello y columna.",
+        "optionExplanations": [
+          "El módulo propone estos apoyos para cuidar la posición, especialmente cuello y columna.",
+          "Los apoyos no restringen el consentimiento ni la comunicación.",
+          "Comodidad postural y valoración de la piel cumplen funciones distintas.",
+          "Los apoyos permiten adaptar, no imponer una posición idéntica."
+        ],
+        "hint": "El accesorio debe servir a la postura de la persona.",
+        "source": "Módulo 1 · p. 54"
+      },
+      {
+        "id": "m1-preparacion-07",
+        "topicId": "preparacion",
+        "prompt": "Tras una comida abundante, ¿qué recomienda el módulo antes del masaje abdominal?",
+        "options": [
+          "Ignorar la comida si la camilla está alta.",
+          "Esperar aproximadamente una a dos horas y valorar comodidad.",
+          "Aplicar presión intensa inmediatamente.",
+          "Prohibir cualquier masaje durante una semana."
+        ],
+        "answer": 1,
+        "explanation": "El material propone esa espera para reducir náusea, reflujo y pesadez; no lo considera contraindicación absoluta.",
+        "optionExplanations": [
+          "La altura no elimina la posible incomodidad digestiva.",
+          "El material propone esa espera para reducir náusea, reflujo y pesadez; no lo considera contraindicación absoluta.",
+          "Puede aumentar las molestias que el módulo busca evitar.",
+          "El módulo no establece esa prohibición ni ese plazo."
+        ],
+        "hint": "La recomendación busca comodidad digestiva.",
+        "source": "Módulo 1 · p. 54"
+      },
+      {
+        "id": "m1-preparacion-08",
+        "topicId": "preparacion",
+        "prompt": "Durante el masaje, ¿qué zonas deben permanecer cubiertas?",
+        "options": [
+          "Ninguna, para facilitar cualquier maniobra.",
+          "La zona de trabajo, dejando descubiertas las demás.",
+          "Las zonas que no se están trabajando.",
+          "Únicamente los pies durante toda la sesión."
+        ],
+        "answer": 2,
+        "explanation": "La cobertura conserva privacidad y comodidad; se expone solo el área necesaria.",
+        "optionExplanations": [
+          "Descubrir todo el cuerpo no respeta el criterio de mínima exposición.",
+          "Invierte el principio de cubrir las áreas que no se trabajan.",
+          "La cobertura conserva privacidad y comodidad; se expone solo el área necesaria.",
+          "El principio se aplica a las zonas no trabajadas, no solo a los pies."
+        ],
+        "hint": "La cobertura cambia conforme cambia el área autorizada de trabajo.",
+        "source": "Módulo 1 · p. 54"
+      }
+    ]
+  },
+  {
+    "id": "m1-historia",
+    "title": "Historia y vocabulario del masaje",
+    "description": "8 preguntas para comprobar lo que aprendiste en este tema.",
+    "source": "Módulo 1 · pp. 25–38",
+    "questions": [
+      {
+        "id": "m1-historia-01",
+        "topicId": "historia",
+        "prompt": "¿Sobre qué se aplican las maniobras que definen el masaje en el módulo?",
+        "options": [
+          "Solo sobre los huesos mediante palancas.",
+          "Solo sobre el cabello y sus folículos.",
+          "Solo sobre puntos de acupuntura con agujas.",
+          "Sobre los tejidos blandos del cuerpo."
+        ],
+        "answer": 3,
+        "explanation": "La definición se centra en manipulación de tejidos blandos con objetivos acordes a la preparación profesional.",
+        "optionExplanations": [
+          "No corresponde a la definición de manipulación de tejidos blandos.",
+          "El módulo se refiere al masaje corporal de tejidos blandos.",
+          "La definición no es la de acupuntura ni exige agujas.",
+          "La definición se centra en manipulación de tejidos blandos con objetivos acordes a la preparación profesional."
+        ],
+        "hint": "Recuerda la definición antes de pensar en una técnica concreta.",
+        "source": "Módulo 1 · p. 26"
+      },
+      {
+        "id": "m1-historia-02",
+        "topicId": "historia",
+        "prompt": "¿Qué asociación cultural coincide con el módulo?",
+        "options": [
+          "India: Abhyanga y uso de aceites en Ayurveda.",
+          "Japón: Abhyanga dentro de los baños romanos.",
+          "Egipto: creación de la gimnasia sueca de Ling.",
+          "China: organización de términos franceses por Galeno."
+        ],
+        "answer": 0,
+        "explanation": "El material sitúa Abhyanga dentro de rutinas ayurvédicas que incluyen aceites y cuidado corporal.",
+        "optionExplanations": [
+          "El material sitúa Abhyanga dentro de rutinas ayurvédicas que incluyen aceites y cuidado corporal.",
+          "Combina una práctica india con dos contextos que no corresponden.",
+          "La gimnasia de Ling se sitúa en Suecia y el siglo XIX.",
+          "Los términos franceses se vinculan con Mezger, no con Galeno ni esa asociación china."
+        ],
+        "hint": "Relaciona el nombre de la práctica con su tradición.",
+        "source": "Módulo 1 · pp. 28–31"
+      },
+      {
+        "id": "m1-historia-03",
+        "topicId": "historia",
+        "prompt": "¿Qué significa Shiatsu?",
+        "options": [
+          "Gimnasia sueca con aparatos.",
+          "Presión con los dedos.",
+          "Masaje con aceites.",
+          "Percusión con chorros de agua."
+        ],
+        "answer": 1,
+        "explanation": "El módulo explica ese significado y menciona pulgares, palmas y dedos aplicados en puntos tradicionales.",
+        "optionExplanations": [
+          "Shiatsu pertenece a la tradición japonesa descrita, no al sistema sueco.",
+          "El módulo explica ese significado y menciona pulgares, palmas y dedos aplicados en puntos tradicionales.",
+          "Esa asociación corresponde a Abhyanga.",
+          "No corresponde al significado de Shiatsu."
+        ],
+        "hint": "El nombre se relaciona con la forma de contacto.",
+        "source": "Módulo 1 · p. 29"
+      },
+      {
+        "id": "m1-historia-04",
+        "topicId": "historia",
+        "prompt": "¿Qué describe el Anma en el módulo?",
+        "options": [
+          "Masaje indio con aceites llamado Abhyanga.",
+          "Conjunto de términos franceses organizado por Mezger.",
+          "Técnica japonesa con influencia china, principalmente sobre ropa.",
+          "Compresión neumática mediante botas inflables."
+        ],
+        "answer": 2,
+        "explanation": "El Anma se presenta con presiones, amasamientos, fricciones y movilizaciones, con influencia de la medicina china.",
+        "optionExplanations": [
+          "Es otra tradición y otro nombre.",
+          "Se refiere a la clasificación del masaje clásico, no a Anma.",
+          "El Anma se presenta con presiones, amasamientos, fricciones y movilizaciones, con influencia de la medicina china.",
+          "Describe un equipo de presoterapia, no Anma."
+        ],
+        "hint": "Distingue Anma de masaje con aceites y aparatos.",
+        "source": "Módulo 1 · p. 29"
+      },
+      {
+        "id": "m1-historia-05",
+        "topicId": "historia",
+        "prompt": "¿Qué pareja de personajes y contexto coincide con el módulo?",
+        "options": [
+          "Hipócrates: Japón; Galeno: India.",
+          "Hipócrates: Roma; Galeno: China.",
+          "Hipócrates: Suecia; Galeno: Países Bajos.",
+          "Hipócrates: Grecia; Galeno: Roma."
+        ],
+        "answer": 3,
+        "explanation": "El material relaciona a Hipócrates con fricciones en Grecia y a Galeno con masaje, ejercicio e higiene en Roma.",
+        "optionExplanations": [
+          "No son las asociaciones que presenta el módulo.",
+          "Intercambia y desplaza los contextos del material.",
+          "Esos contextos se relacionan con Ling y Mezger, respectivamente.",
+          "El material relaciona a Hipócrates con fricciones en Grecia y a Galeno con masaje, ejercicio e higiene en Roma."
+        ],
+        "hint": "Ubica primero a los personajes en las dos culturas clásicas.",
+        "source": "Módulo 1 · pp. 32–33"
+      },
+      {
+        "id": "m1-historia-06",
+        "topicId": "historia",
+        "prompt": "¿Qué distingue las aportaciones de Ling y Mezger?",
+        "options": [
+          "Ling: gimnasia sueca; Mezger: organización de maniobras con nombres franceses.",
+          "Ling: reflexología; Mezger: creación del Ayurveda.",
+          "Ling: nombres franceses; Mezger: creador del Anma.",
+          "Ling: único inventor de todas las maniobras; Mezger: hidromasaje."
+        ],
+        "answer": 0,
+        "explanation": "El módulo separa la influencia del sistema de gimnasia de Ling de la difusión terminológica de Mezger.",
+        "optionExplanations": [
+          "El módulo separa la influencia del sistema de gimnasia de Ling de la difusión terminológica de Mezger.",
+          "Ninguna de esas aportaciones es la que el texto les atribuye.",
+          "Invierte la primera asociación y atribuye incorrectamente la segunda.",
+          "El módulo aclara que Ling no inventó exactamente todas las maniobras."
+        ],
+        "hint": "Uno se asocia a movimiento y gimnasia; el otro a la terminología.",
+        "source": "Módulo 1 · pp. 35–36"
+      },
+      {
+        "id": "m1-historia-07",
+        "topicId": "historia",
+        "prompt": "¿Qué equivalencias son correctas?",
+        "options": [
+          "Tapotement: fricción; effleurage: amasamiento.",
+          "Effleurage: deslizamiento; pétrissage: amasamiento.",
+          "Effleurage: percusión; pétrissage: vibración.",
+          "Friction: amasamiento; tapotement: deslizamiento."
+        ],
+        "answer": 1,
+        "explanation": "Mezger se relaciona con estos términos franceses; friction es fricción y tapotement es percusión.",
+        "optionExplanations": [
+          "Tapotement es percusión; effleurage es deslizamiento.",
+          "Mezger se relaciona con estos términos franceses; friction es fricción y tapotement es percusión.",
+          "Effleurage significa deslizamiento y pétrissage, amasamiento.",
+          "Friction es fricción y tapotement es percusión."
+        ],
+        "hint": "Distingue deslizar, amasar, friccionar y percutir.",
+        "source": "Módulo 1 · p. 36"
+      },
+      {
+        "id": "m1-historia-08",
+        "topicId": "historia",
+        "prompt": "¿Qué afirmación resume la evolución descrita?",
+        "options": [
+          "En la actualidad basta con tener manos fuertes.",
+          "Todas las variantes modernas tienen objetivos e intensidades idénticos.",
+          "El masaje es una familia de métodos que requiere formación y adaptación.",
+          "En la Edad Media desapareció de todas las culturas."
+        ],
+        "answer": 2,
+        "explanation": "El módulo explica su desarrollo en diversas culturas y áreas, y exige conocimientos, consentimiento y límites profesionales.",
+        "optionExplanations": [
+          "El material señala anatomía, higiene, valoración, consentimiento y otros conocimientos.",
+          "El módulo presenta objetivos, intensidades y fundamentos diferentes.",
+          "El módulo explica su desarrollo en diversas culturas y áreas, y exige conocimientos, consentimiento y límites profesionales.",
+          "El texto indica conservación y desarrollo en regiones asiáticas y árabes."
+        ],
+        "hint": "Evita pensar que toda la historia lleva a una única técnica universal.",
+        "source": "Módulo 1 · pp. 34 y 37–38"
+      }
+    ]
+  },
+  {
+    "id": "m1-tipos",
+    "title": "Tipos de masaje y sus límites",
+    "description": "8 preguntas para comprobar lo que aprendiste en este tema.",
+    "source": "Módulo 1 · pp. 39–41",
+    "questions": [
+      {
+        "id": "m1-tipos-01",
+        "topicId": "tipos",
+        "prompt": "¿Qué distingue el ámbito del masaje terapéutico?",
+        "options": [
+          "Siempre requiere mayor presión que el estético.",
+          "Permite diagnosticar enfermedades tras estudiar un solo módulo.",
+          "Se define exclusivamente por usar cosméticos caros.",
+          "Un contexto sanitario con preparación y competencias adecuadas."
+        ],
+        "answer": 3,
+        "explanation": "El módulo lo sitúa en prevención o tratamiento de problemas de salud; eso exige respetar el campo profesional.",
+        "optionExplanations": [
+          "La intensidad por sí sola no define el ámbito terapéutico.",
+          "Estudiar el módulo no confiere competencia para diagnóstico médico.",
+          "El precio del producto no determina la finalidad sanitaria.",
+          "El módulo lo sitúa en prevención o tratamiento de problemas de salud; eso exige respetar el campo profesional."
+        ],
+        "hint": "La diferencia no se limita a que se utilice más presión.",
+        "source": "Módulo 1 · p. 39 y aclaración de la guía"
+      },
+      {
+        "id": "m1-tipos-02",
+        "topicId": "tipos",
+        "prompt": "¿Cuál pertenece a la clasificación manual del módulo?",
+        "options": [
+          "Masaje clásico o sueco.",
+          "Presoterapia neumática.",
+          "Ultrasonido estético.",
+          "Hidromasaje con chorros."
+        ],
+        "answer": 0,
+        "explanation": "Se realiza con las manos mediante maniobras sobre tejidos blandos; el módulo lo clasifica como manual.",
+        "optionExplanations": [
+          "Se realiza con las manos mediante maniobras sobre tejidos blandos; el módulo lo clasifica como manual.",
+          "El módulo la incluye entre técnicas con equipos.",
+          "Requiere equipo y se clasifica como no manual.",
+          "Se realiza mediante agua y equipos, no como masaje manual."
+        ],
+        "hint": "Busca una técnica, no un aparato.",
+        "source": "Módulo 1 · p. 41"
+      },
+      {
+        "id": "m1-tipos-03",
+        "topicId": "tipos",
+        "prompt": "¿Qué medio caracteriza al hidromasaje?",
+        "options": [
+          "Presión digital sobre tsubos.",
+          "Agua mediante chorros, duchas, burbujas o remolinos.",
+          "Compresión mediante cámaras de aire.",
+          "Succión mediante ventosas."
+        ],
+        "answer": 1,
+        "explanation": "La variedad de movimientos del agua es el elemento común de los ejemplos de hidromasaje del módulo.",
+        "optionExplanations": [
+          "Es la descripción tradicional de Shiatsu.",
+          "La variedad de movimientos del agua es el elemento común de los ejemplos de hidromasaje del módulo.",
+          "Describe presoterapia, no hidromasaje.",
+          "Se relaciona con vacuumterapia."
+        ],
+        "hint": "Fíjate en el prefijo hidro-.",
+        "source": "Módulo 1 · p. 40"
+      },
+      {
+        "id": "m1-tipos-04",
+        "topicId": "tipos",
+        "prompt": "¿Qué diferencia vacuumterapia de presoterapia neumática?",
+        "options": [
+          "Vacuumterapia: aceites; presoterapia: dedos.",
+          "Ambas son sinónimos de masaje sueco manual.",
+          "Vacuumterapia: succión; presoterapia: compresión.",
+          "Ambas se definen por utilizar únicamente agua."
+        ],
+        "answer": 2,
+        "explanation": "La guía separa succión o vacío de compresión neumática para aclarar la clasificación del PDF.",
+        "optionExplanations": [
+          "Confunde mecanismos de equipos con medios manuales.",
+          "Son modalidades con equipos, no sinónimos del masaje sueco.",
+          "La guía separa succión o vacío de compresión neumática para aclarar la clasificación del PDF.",
+          "El agua caracteriza hidromasaje, no esos dos mecanismos."
+        ],
+        "hint": "Compara atraer tejido mediante vacío con comprimir externamente.",
+        "source": "Módulo 1 · p. 40 y aclaración de la guía"
+      },
+      {
+        "id": "m1-tipos-05",
+        "topicId": "tipos",
+        "prompt": "¿Con qué sistema se relaciona el drenaje linfático manual?",
+        "options": [
+          "Exclusivamente con el sistema óseo.",
+          "Solo con los folículos del cabello.",
+          "Únicamente con presión profunda sobre músculos.",
+          "Con la anatomía y funcionamiento del sistema linfático."
+        ],
+        "answer": 3,
+        "explanation": "Así se presenta en el módulo; no es sinónimo de masaje muscular profundo ni se aplica sin valorar una hinchazón.",
+        "optionExplanations": [
+          "El enfoque nombrado es linfático, no exclusivamente óseo.",
+          "No es el sistema al que se refiere esta modalidad.",
+          "La intensidad profunda no define el drenaje linfático manual.",
+          "Así se presenta en el módulo; no es sinónimo de masaje muscular profundo ni se aplica sin valorar una hinchazón."
+        ],
+        "hint": "El nombre indica la estructura principal que estudia.",
+        "source": "Módulo 1 · p. 41"
+      },
+      {
+        "id": "m1-tipos-06",
+        "topicId": "tipos",
+        "prompt": "¿Cómo debes explicar la reflexología?",
+        "options": [
+          "Como una práctica tradicional cuya acción sobre órganos no está demostrada.",
+          "Como una forma comprobada de curar órganos desde los pies.",
+          "Como una técnica que exige ultrasonido.",
+          "Como el nombre francés de una percusión."
+        ],
+        "answer": 0,
+        "explanation": "El NCCIH señala que las correspondencias con otras partes del cuerpo no prueban la curación de esos órganos.",
+        "optionExplanations": [
+          "El NCCIH señala que las correspondencias con otras partes del cuerpo no prueban la curación de esos órganos.",
+          "Esa eficacia no está demostrada; no debe prometerse.",
+          "La descripción se basa en presión sobre manos o pies, no ultrasonido.",
+          "El término francés para percusión es tapotement."
+        ],
+        "hint": "Distingue una creencia tradicional de un efecto demostrado.",
+        "source": "Módulo 1 · p. 41 y aclaración NCCIH de la guía"
+      },
+      {
+        "id": "m1-tipos-07",
+        "topicId": "tipos",
+        "prompt": "¿Cómo se presentan los meridianos en el masaje oriental del módulo?",
+        "options": [
+          "Como sinónimo de articulaciones sinoviales.",
+          "Como parte de un marco tradicional de energía.",
+          "Como equivalentes exactos de arterias y venas.",
+          "Como parámetros de potencia del ultrasonido."
+        ],
+        "answer": 1,
+        "explanation": "El texto describe ese modelo tradicional; mencionarlo no demuestra por sí mismo mecanismos o resultados clínicos.",
+        "optionExplanations": [
+          "No equivalen a esa estructura anatómica.",
+          "El texto describe ese modelo tradicional; mencionarlo no demuestra por sí mismo mecanismos o resultados clínicos.",
+          "La guía no equipara los meridianos tradicionales con vasos anatómicos.",
+          "No son parámetros de equipos."
+        ],
+        "hint": "Reconoce el contexto cultural de la explicación.",
+        "source": "Módulo 1 · p. 41 y aclaración de la guía"
+      },
+      {
+        "id": "m1-tipos-08",
+        "topicId": "tipos",
+        "prompt": "¿Qué falta para utilizar un aparato con seguridad aunque conozcas su nombre?",
+        "options": [
+          "Solo repetir la presión de un masaje manual.",
+          "Solo comprobar que pertenece al masaje no manual.",
+          "Formación, indicaciones y parámetros específicos del dispositivo.",
+          "Solo elegir el aroma de la cabina."
+        ],
+        "answer": 2,
+        "explanation": "El listado del módulo es introductorio y no proporciona un protocolo seguro para todos los equipos.",
+        "optionExplanations": [
+          "Los mecanismos de los equipos pueden ser distintos y no se transfieren así.",
+          "Conocer la categoría no establece indicaciones ni configuración.",
+          "El listado del módulo es introductorio y no proporciona un protocolo seguro para todos los equipos.",
+          "El aroma no sustituye formación ni parámetros del equipo."
+        ],
+        "hint": "Una clasificación no equivale a instrucciones de uso.",
+        "source": "Módulo 1 · pp. 40–41"
+      }
+    ]
+  },
+  {
+    "id": "m1-efectos",
+    "title": "Efectos del masaje: entender y matizar",
+    "description": "8 preguntas para comprobar lo que aprendiste en este tema.",
+    "source": "Módulo 1 · pp. 42–48",
+    "questions": [
+      {
+        "id": "m1-efectos-01",
+        "topicId": "efectos",
+        "prompt": "¿Qué significa hiperemia local en el contexto de la piel?",
+        "options": [
+          "Desaparición completa de la capa córnea.",
+          "Pérdida permanente del tejido adiposo.",
+          "Bloqueo total de las terminaciones nerviosas.",
+          "Mayor afluencia de sangre en la zona."
+        ],
+        "answer": 3,
+        "explanation": "El módulo relaciona el aumento local de temperatura con hiperemia; se refiere al flujo sanguíneo local.",
+        "optionExplanations": [
+          "El texto menciona arrastre de células superficiales, no desaparición de toda la capa.",
+          "La hiperemia es un fenómeno sanguíneo, no pérdida de grasa.",
+          "No es una definición de anestesia ni bloqueo nervioso.",
+          "El módulo relaciona el aumento local de temperatura con hiperemia; se refiere al flujo sanguíneo local."
+        ],
+        "hint": "No la confundas con eliminación de grasa.",
+        "source": "Módulo 1 · p. 43"
+      },
+      {
+        "id": "m1-efectos-02",
+        "topicId": "efectos",
+        "prompt": "El PDF menciona un aumento de 2–3 °C. ¿Cómo estudiarlo?",
+        "options": [
+          "Como referencia del material, no como respuesta universal garantizada.",
+          "Como temperatura que debe forzarse en todo cliente.",
+          "Como prueba automática de pérdida de grasa.",
+          "Como temperatura ambiental recomendada para la cabina."
+        ],
+        "answer": 0,
+        "explanation": "La guía distingue un número citado en el módulo de una medición fija para cualquier persona y técnica.",
+        "optionExplanations": [
+          "La guía distingue un número citado en el módulo de una medición fija para cualquier persona y técnica.",
+          "No constituye una meta que deba forzarse mediante fricción o calor.",
+          "Un cambio de temperatura no demuestra pérdida de grasa.",
+          "La temperatura de cabina mencionada es aproximadamente 22–24 °C."
+        ],
+        "hint": "Una cifra de clase no elimina la variabilidad.",
+        "source": "Módulo 1 · p. 43 y aclaración de la guía"
+      },
+      {
+        "id": "m1-efectos-03",
+        "topicId": "efectos",
+        "prompt": "¿Qué decisión es adecuada ante una hinchazón de causa desconocida?",
+        "options": [
+          "Elegir presoterapia solo por la sensación de pesadez.",
+          "Valorar la causa y derivar cuando corresponda antes de intervenir.",
+          "Aplicar automáticamente masaje profundo en la zona.",
+          "Asumir que cualquier edema es únicamente estético."
+        ],
+        "answer": 1,
+        "explanation": "El módulo requiere valoración y precauciones: mencionar drenaje no autoriza masajear todo edema.",
+        "optionExplanations": [
+          "Un síntoma aislado no establece la indicación de un equipo.",
+          "El módulo requiere valoración y precauciones: mencionar drenaje no autoriza masajear todo edema.",
+          "La intensidad profunda no es una respuesta segura a toda hinchazón.",
+          "Puede tener causas que necesitan evaluación sanitaria."
+        ],
+        "hint": "La palabra edema describe una manifestación, no su causa.",
+        "source": "Módulo 1 · p. 44"
+      },
+      {
+        "id": "m1-efectos-04",
+        "topicId": "efectos",
+        "prompt": "¿Qué ritmo relaciona el módulo con relajación?",
+        "options": [
+          "Maniobras bruscas y de intensidad máxima.",
+          "Maniobras sin contacto continuo ni ritmo.",
+          "Maniobras lentas y rítmicas.",
+          "Maniobras rápidas y breves en todos los casos."
+        ],
+        "answer": 2,
+        "explanation": "El material las asocia a relajación, mientras que las rápidas y breves pueden ser más estimulantes.",
+        "optionExplanations": [
+          "La brusquedad no es el patrón relajante descrito.",
+          "No coincide con la combinación lenta y rítmica.",
+          "El material las asocia a relajación, mientras que las rápidas y breves pueden ser más estimulantes.",
+          "El módulo las asocia más a estimulación."
+        ],
+        "hint": "Compara un ritmo sostenido y suave con estímulos rápidos.",
+        "source": "Módulo 1 · pp. 45 y 47"
+      },
+      {
+        "id": "m1-efectos-05",
+        "topicId": "efectos",
+        "prompt": "¿Qué conclusión evita una promesa no respaldada?",
+        "options": [
+          "Todo masaje reduce permanentemente la grasa localizada.",
+          "Todo cambio de perímetro demuestra destrucción de adipocitos.",
+          "Una sesión permite garantizar reducción de peso.",
+          "Mejorar temporalmente la apariencia no demuestra pérdida de grasa."
+        ],
+        "answer": 3,
+        "explanation": "La guía distingue apariencia y contorno de reducción de tejido adiposo; no promete adelgazamiento por masaje.",
+        "optionExplanations": [
+          "Es una generalización que la guía corrige.",
+          "El perímetro por sí solo no demuestra ese mecanismo.",
+          "No es un resultado que pueda garantizarse por masaje.",
+          "La guía distingue apariencia y contorno de reducción de tejido adiposo; no promete adelgazamiento por masaje."
+        ],
+        "hint": "Pregúntate qué resultado se ha observado realmente.",
+        "source": "Módulo 1 · p. 46 y aclaración FDA de la guía"
+      },
+      {
+        "id": "m1-efectos-06",
+        "topicId": "efectos",
+        "prompt": "¿Cómo interpretar la palabra “anestesia” empleada por el PDF?",
+        "options": [
+          "No como garantía de bloqueo nervioso o pérdida de sensibilidad.",
+          "Como objetivo de dejar la piel sin sensibilidad.",
+          "Como prueba de que toda presión dolorosa es útil.",
+          "Como permiso para ignorar molestias del cliente."
+        ],
+        "answer": 0,
+        "explanation": "La guía matiza ese término: sensación de bienestar o alivio no equivale a anestesia.",
+        "optionExplanations": [
+          "La guía matiza ese término: sensación de bienestar o alivio no equivale a anestesia.",
+          "La pérdida de sensibilidad no debe buscarse como objetivo del masaje.",
+          "El dolor no confirma un beneficio ni una anestesia adecuada.",
+          "La comunicación y adaptación siguen siendo necesarias."
+        ],
+        "hint": "Distingue relajación de ausencia de sensibilidad.",
+        "source": "Módulo 1 · p. 47 y aclaración de la guía"
+      },
+      {
+        "id": "m1-efectos-07",
+        "topicId": "efectos",
+        "prompt": "¿Qué afirmación del módulo se señala como pendiente de respaldo específico?",
+        "options": [
+          "Que T’ai Chi incluye desplazamiento lateral.",
+          "El aumento del filtrado renal y de la orina por masaje.",
+          "Que supino significa estar boca arriba.",
+          "Que se deben utilizar textiles limpios."
+        ],
+        "answer": 1,
+        "explanation": "El PDF lo afirma sin aportar una fuente específica; la guía no lo presenta como beneficio demostrado ni objetivo del servicio.",
+        "optionExplanations": [
+          "Es una descripción postural, no una afirmación de función renal.",
+          "El PDF lo afirma sin aportar una fuente específica; la guía no lo presenta como beneficio demostrado ni objetivo del servicio.",
+          "Es una definición de posición, no la afirmación excretora discutida.",
+          "Es una medida de higiene, no un efecto renal."
+        ],
+        "hint": "Revisa el apartado excretor y la distinción entre afirmar y demostrar.",
+        "source": "Módulo 1 · p. 48 y aclaración de la guía"
+      },
+      {
+        "id": "m1-efectos-08",
+        "topicId": "efectos",
+        "prompt": "¿Qué criterio general conviene usar al explicar beneficios?",
+        "options": [
+          "Considerar que más presión asegura más beneficio.",
+          "Sustituir la valoración médica si la persona se relaja.",
+          "Distinguir efectos posibles, límites y variación entre personas.",
+          "Prometer todos los efectos a cualquier persona."
+        ],
+        "answer": 2,
+        "explanation": "La guía evita convertir descripciones del módulo en resultados universales o autorización para tratar enfermedades.",
+        "optionExplanations": [
+          "La intensidad no garantiza un resultado mejor.",
+          "Sentirse mejor no sustituye investigar un problema de salud.",
+          "La guía evita convertir descripciones del módulo en resultados universales o autorización para tratar enfermedades.",
+          "Ignora técnica, situación individual y límites de la evidencia."
+        ],
+        "hint": "Una explicación profesional debe reflejar la incertidumbre real.",
+        "source": "Módulo 1 · pp. 45–48 y aclaraciones de la guía"
+      }
+    ]
+  },
+  {
+    "id": "m1-seguridad",
+    "title": "Valoración, precauciones y consentimiento",
+    "description": "8 preguntas para comprobar lo que aprendiste en este tema.",
+    "source": "Módulo 1 · pp. 38 y 49–54",
+    "questions": [
+      {
+        "id": "m1-seguridad-01",
+        "topicId": "seguridad",
+        "prompt": "¿Qué corresponde a la valoración de una cosmetóloga?",
+        "options": [
+          "Diagnosticar una enfermedad con una maniobra de masaje.",
+          "Omitir cirugías previas si la piel se ve normal.",
+          "Elegir siempre la misma técnica para todas las personas.",
+          "Revisar antecedentes y detectar motivos para derivar."
+        ],
+        "answer": 3,
+        "explanation": "En la guía, valoración estética significa recopilar información y reconocer límites, no diagnosticar enfermedades.",
+        "optionExplanations": [
+          "No corresponde a la competencia derivada de este módulo.",
+          "El módulo indica revisar antecedentes y cirugías.",
+          "La valoración sirve precisamente para adaptar o posponer.",
+          "En la guía, valoración estética significa recopilar información y reconocer límites, no diagnosticar enfermedades."
+        ],
+        "hint": "Distingue observar una señal de establecer un diagnóstico médico.",
+        "source": "Módulo 1 · pp. 38 y 50"
+      },
+      {
+        "id": "m1-seguridad-02",
+        "topicId": "seguridad",
+        "prompt": "Si se sospecha trombosis venosa profunda, ¿qué procede?",
+        "options": [
+          "No masajear la zona y solicitar valoración médica.",
+          "Aplicar masaje profundo para movilizar el coágulo.",
+          "Probar percusiones para ver si desaparece el dolor.",
+          "Utilizar crema y continuar con la misma presión."
+        ],
+        "answer": 0,
+        "explanation": "No se intenta tratar ni comprobar un coágulo con masaje; la situación requiere evaluación sanitaria.",
+        "optionExplanations": [
+          "No se intenta tratar ni comprobar un coágulo con masaje; la situación requiere evaluación sanitaria.",
+          "Esa intervención es peligrosa y no está indicada.",
+          "El masaje no es una prueba diagnóstica de trombosis.",
+          "Cambiar el producto no resuelve el riesgo vascular."
+        ],
+        "hint": "Es una situación vascular potencialmente seria.",
+        "source": "Módulo 1 · p. 51 y aclaración de seguridad"
+      },
+      {
+        "id": "m1-seguridad-03",
+        "topicId": "seguridad",
+        "prompt": "¿Qué situación exige valorar y posponer el trabajo afectado?",
+        "options": [
+          "Elegir no usar aromas en la cabina.",
+          "Fiebre o una infección activa.",
+          "Preferir música a volumen bajo.",
+          "Solicitar una almohada adicional."
+        ],
+        "answer": 1,
+        "explanation": "El módulo las incluye entre las situaciones que requieren precaución; no se continúa de forma automática.",
+        "optionExplanations": [
+          "Es una decisión que puede respetarse sin implicar infección o fiebre.",
+          "El módulo las incluye entre las situaciones que requieren precaución; no se continúa de forma automática.",
+          "Es una preferencia de ambiente, no esa señal de riesgo.",
+          "Es una adaptación de comodidad."
+        ],
+        "hint": "Piensa en señales actuales, no solo en preferencias.",
+        "source": "Módulo 1 · pp. 51–52"
+      },
+      {
+        "id": "m1-seguridad-04",
+        "topicId": "seguridad",
+        "prompt": "¿Cómo interpretar un antecedente de cáncer?",
+        "options": [
+          "Implica que el masaje cura el proceso oncológico.",
+          "Prohíbe toda forma de contacto de por vida.",
+          "Requiere valoración individual y posibles adaptaciones sanitarias.",
+          "Puede ignorarse si se utiliza poca crema."
+        ],
+        "answer": 2,
+        "explanation": "El NCCIH describe masaje de apoyo con precauciones; no es tratamiento del cáncer ni una prohibición idéntica en todos los casos.",
+        "optionExplanations": [
+          "No es un tratamiento del cáncer.",
+          "Esa prohibición universal no refleja una valoración individual.",
+          "El NCCIH describe masaje de apoyo con precauciones; no es tratamiento del cáncer ni una prohibición idéntica en todos los casos.",
+          "El producto no elimina la necesidad de valorar antecedentes."
+        ],
+        "hint": "Evita tanto ignorar el antecedente como generalizar una prohibición.",
+        "source": "Módulo 1 · pp. 51–52 y aclaración NCCIH"
+      },
+      {
+        "id": "m1-seguridad-05",
+        "topicId": "seguridad",
+        "prompt": "Embarazo, lactancia y menstruación aparecen en el listado. ¿Cómo interpretarlo?",
+        "options": [
+          "Como condiciones idénticas a una sospecha de trombosis.",
+          "Como permiso para omitir cualquier valoración.",
+          "Como prohibición definitiva de todo masaje futuro.",
+          "Como motivos para preguntar y adaptar, sin prohibición automática universal."
+        ],
+        "answer": 3,
+        "explanation": "La guía aclara que las situaciones del listado no tienen el mismo riesgo ni una única respuesta.",
+        "optionExplanations": [
+          "No son situaciones equivalentes en naturaleza o riesgo.",
+          "Es necesario preguntar y adaptar según la persona.",
+          "El módulo no justifica esa conclusión universal.",
+          "La guía aclara que las situaciones del listado no tienen el mismo riesgo ni una única respuesta."
+        ],
+        "hint": "Un listado de precauciones no convierte todas sus entradas en contraindicaciones absolutas.",
+        "source": "Módulo 1 · p. 52 y aclaración de la guía"
+      },
+      {
+        "id": "m1-seguridad-06",
+        "topicId": "seguridad",
+        "prompt": "¿Qué debe acordarse antes de comenzar?",
+        "options": [
+          "Zonas, límites de contacto e intensidad de presión.",
+          "Solo el tipo de música, sin hablar del contacto.",
+          "Solo la duración, suponiendo autorización para todo el cuerpo.",
+          "Solo la marca del producto, sin consultar la presión."
+        ],
+        "answer": 0,
+        "explanation": "El consentimiento incluye explicar el masaje, las zonas, preferencias y presión, con posibilidad de detenerse.",
+        "optionExplanations": [
+          "El consentimiento incluye explicar el masaje, las zonas, preferencias y presión, con posibilidad de detenerse.",
+          "La música no sustituye el acuerdo sobre el procedimiento.",
+          "Aceptar una duración no autoriza todas las zonas.",
+          "El producto no reemplaza los acuerdos sobre intensidad y contacto."
+        ],
+        "hint": "La persona necesita saber y decidir qué se realizará.",
+        "source": "Módulo 1 · p. 53"
+      },
+      {
+        "id": "m1-seguridad-07",
+        "topicId": "seguridad",
+        "prompt": "La clienta pide detener el masaje después de autorizarlo. ¿Qué haces?",
+        "options": [
+          "Cambiar de zona sin preguntarle.",
+          "Detener el procedimiento y respetar su decisión.",
+          "Continuar porque ya había aceptado.",
+          "Terminar primero todas las maniobras programadas."
+        ],
+        "answer": 1,
+        "explanation": "La persona puede retirar su consentimiento en cualquier momento; la autorización inicial no es irrevocable.",
+        "optionExplanations": [
+          "Eso no respeta la petición ni obtiene autorización para el nuevo contacto.",
+          "La persona puede retirar su consentimiento en cualquier momento; la autorización inicial no es irrevocable.",
+          "El consentimiento inicial no elimina su derecho a detenerse.",
+          "El plan no tiene prioridad sobre la petición de detenerse."
+        ],
+        "hint": "Consentimiento es un proceso que continúa durante la sesión.",
+        "source": "Módulo 1 · p. 53"
+      },
+      {
+        "id": "m1-seguridad-08",
+        "topicId": "seguridad",
+        "prompt": "La presión acordada empieza a producir dolor importante. ¿Cómo respondes?",
+        "options": [
+          "Aumentarla porque el dolor confirma eficacia.",
+          "Dejar de preguntar para no interrumpir la relajación.",
+          "Detener o reducir la maniobra y volver a comprobar comodidad.",
+          "Mantenerla para que el cuerpo se acostumbre."
+        ],
+        "answer": 2,
+        "explanation": "La intensidad se adapta durante la sesión; el dolor importante no es una meta ni debe ignorarse.",
+        "optionExplanations": [
+          "El dolor no demuestra eficacia del masaje.",
+          "La comunicación sigue siendo necesaria cuando aparecen molestias.",
+          "La intensidad se adapta durante la sesión; el dolor importante no es una meta ni debe ignorarse.",
+          "Ignora el dolor comunicado y la necesidad de adaptación."
+        ],
+        "hint": "El acuerdo inicial no sustituye escuchar la respuesta actual.",
+        "source": "Módulo 1 · p. 53 y aclaración de seguridad"
+      }
+    ]
+  },
+  {
+    "id": "m1-cabina",
+    "title": "Higiene, cosméticos y cabina",
+    "description": "8 preguntas para comprobar lo que aprendiste en este tema.",
+    "source": "Módulo 1 · pp. 55–63",
+    "questions": [
+      {
+        "id": "m1-cabina-01",
+        "topicId": "cabina",
+        "prompt": "¿Qué preparación de manos y accesorios indica el módulo?",
+        "options": [
+          "Usar perfume en lugar de lavarse las manos.",
+          "Conservar anillos si no se ven sucios.",
+          "Lavarse solo al terminar la jornada.",
+          "Lavar manos, llevar uñas cortas y retirar joyas y reloj."
+        ],
+        "answer": 3,
+        "explanation": "Se busca higiene y evitar interferencias durante el contacto; el lavado se realiza antes y después.",
+        "optionExplanations": [
+          "El perfume no sustituye la higiene de manos.",
+          "El módulo indica retirar anillos, pulseras y reloj.",
+          "Se indica antes y después de cada servicio.",
+          "Se busca higiene y evitar interferencias durante el contacto; el lavado se realiza antes y después."
+        ],
+        "hint": "Recuerda lo que puede retener suciedad o dificultar el contacto.",
+        "source": "Módulo 1 · p. 55"
+      },
+      {
+        "id": "m1-cabina-02",
+        "topicId": "cabina",
+        "prompt": "¿Qué medida ayuda a evitar contaminación cruzada entre servicios?",
+        "options": [
+          "Textiles limpios y separación de material limpio y usado.",
+          "Reutilizar textiles si todavía huelen bien.",
+          "Guardar material usado junto al limpio para ahorrar espacio.",
+          "Cambiar solo la música entre clientes."
+        ],
+        "answer": 0,
+        "explanation": "El módulo incluye textiles limpios por cliente, limpieza de superficies y separación del material.",
+        "optionExplanations": [
+          "El módulo incluye textiles limpios por cliente, limpieza de superficies y separación del material.",
+          "El olor no demuestra limpieza ni sustituye textiles limpios por cliente.",
+          "Mezclarlos contradice la separación indicada.",
+          "El ambiente no sustituye las medidas de higiene."
+        ],
+        "hint": "Lo utilizado no debe mezclarse con lo listo para el próximo servicio.",
+        "source": "Módulo 1 · pp. 55 y 58"
+      },
+      {
+        "id": "m1-cabina-03",
+        "topicId": "cabina",
+        "prompt": "¿Cómo debe extraerse un cosmético del envase?",
+        "options": [
+          "Usando la misma porción abierta para varias personas.",
+          "Con espátula o dispensador y sin devolver sobrantes.",
+          "Introduciendo de nuevo las manos después de tocar al cliente.",
+          "Devolviendo la crema sobrante para no desperdiciarla."
+        ],
+        "answer": 1,
+        "explanation": "El módulo busca evitar contaminar el contenido del envase al extraer o reintroducir producto.",
+        "optionExplanations": [
+          "No respeta la preparación higiénica de cantidad necesaria para cada servicio.",
+          "El módulo busca evitar contaminar el contenido del envase al extraer o reintroducir producto.",
+          "Puede trasladar contaminación al producto restante.",
+          "El módulo indica no regresar sobrantes al envase."
+        ],
+        "hint": "Piensa en el recorrido de lo que ya estuvo fuera del recipiente.",
+        "source": "Módulo 1 · pp. 55 y 59"
+      },
+      {
+        "id": "m1-cabina-04",
+        "topicId": "cabina",
+        "prompt": "Un producto cambia de olor antes de caducar. ¿Qué haces?",
+        "options": [
+          "Mezclarlo con uno nuevo para corregir el olor.",
+          "Añadir un aroma y continuar usándolo.",
+          "Desecharlo y revisar las condiciones de almacenamiento.",
+          "Usarlo porque todavía no vence."
+        ],
+        "answer": 2,
+        "explanation": "El módulo indica desechar productos con cambios de olor, color o textura; la fecha no es el único criterio.",
+        "optionExplanations": [
+          "No resuelve la alteración y puede afectar el producto nuevo.",
+          "Enmascarar el olor no establece que el producto sea adecuado.",
+          "El módulo indica desechar productos con cambios de olor, color o textura; la fecha no es el único criterio.",
+          "Una fecha vigente no anula una alteración del producto."
+        ],
+        "hint": "La apariencia y las condiciones también importan.",
+        "source": "Módulo 1 · p. 59"
+      },
+      {
+        "id": "m1-cabina-05",
+        "topicId": "cabina",
+        "prompt": "¿Qué combinación describe una cabina funcional y segura?",
+        "options": [
+          "Pasillos estrechos y material usado en el suelo.",
+          "Piso resbaloso con iluminación insuficiente para valorar piel.",
+          "Decoración abundante sin acceso al lavado de manos.",
+          "Circulación despejada, piso antideslizante y superficies fáciles de limpiar."
+        ],
+        "answer": 3,
+        "explanation": "Son características que favorecen trabajo seguro e higiene, junto con ventilación, privacidad y mobiliario adecuado.",
+        "optionExplanations": [
+          "Dificultan circular y aumentan riesgos.",
+          "Contradice seguridad y valoración adecuada.",
+          "La decoración no sustituye el acceso cercano a higiene de manos.",
+          "Son características que favorecen trabajo seguro e higiene, junto con ventilación, privacidad y mobiliario adecuado."
+        ],
+        "hint": "Prioriza características prácticas del espacio.",
+        "source": "Módulo 1 · p. 58"
+      },
+      {
+        "id": "m1-cabina-06",
+        "topicId": "cabina",
+        "prompt": "¿Qué temperatura ambiental propone el módulo como referencia?",
+        "options": [
+          "Aproximadamente 22–24 °C, ajustada al confort.",
+          "Aproximadamente 2–3 °C.",
+          "Aproximadamente 10–12 °C para todos.",
+          "Aproximadamente 35–40 °C sin ventilación."
+        ],
+        "answer": 0,
+        "explanation": "Se propone ese intervalo para la cabina, evitando además aire directo sobre el cliente.",
+        "optionExplanations": [
+          "Se propone ese intervalo para la cabina, evitando además aire directo sobre el cliente.",
+          "Esa cifra aparece como aumento de temperatura cutánea, no temperatura de cabina.",
+          "No es la referencia del módulo y no refleja confort individual.",
+          "No coincide con la referencia ni con la ventilación recomendada."
+        ],
+        "hint": "Es una referencia ambiental de confort, no un efecto sobre la piel.",
+        "source": "Módulo 1 · p. 60"
+      },
+      {
+        "id": "m1-cabina-07",
+        "topicId": "cabina",
+        "prompt": "Antes de usar aromas, ¿qué conviene preguntar?",
+        "options": [
+          "Nada, porque cualquier aroma es siempre inocuo.",
+          "Si hay alergias, asma o migraña.",
+          "Solo cuál es el perfume más caro.",
+          "Solo si quiere una luz más tenue."
+        ],
+        "answer": 1,
+        "explanation": "El módulo recomienda consultarlo y usar aromas moderados; también evita velas encendidas y ozono como aromatizante.",
+        "optionExplanations": [
+          "El módulo indica preguntar por condiciones que pueden afectar la tolerancia.",
+          "El módulo recomienda consultarlo y usar aromas moderados; también evita velas encendidas y ozono como aromatizante.",
+          "El costo no informa sobre sensibilidad o tolerancia.",
+          "La iluminación no responde a posibles reacciones a los aromas."
+        ],
+        "hint": "Un ambiente agradable debe adaptarse a sensibilidades.",
+        "source": "Módulo 1 · p. 60"
+      },
+      {
+        "id": "m1-cabina-08",
+        "topicId": "cabina",
+        "prompt": "La clienta prefiere conservar su ropa interior. ¿Qué procede?",
+        "options": [
+          "Descubrir más zonas para compensar la ropa.",
+          "Asumir que ya no necesita sábana ni privacidad.",
+          "Respetarlo y adaptar el servicio con cobertura adecuada.",
+          "Obligarla a retirarla porque lo menciona el PDF."
+        ],
+        "answer": 2,
+        "explanation": "La ropa desechable es una opción según servicio y comodidad; no obliga a desvestirse ni sustituye consentimiento.",
+        "optionExplanations": [
+          "Solo debe exponerse lo necesario y autorizado.",
+          "Conservar ropa no elimina la necesidad de privacidad y cobertura.",
+          "La ropa desechable es una opción según servicio y comodidad; no obliga a desvestirse ni sustituye consentimiento.",
+          "La instrucción del material no elimina el derecho a decidir."
+        ],
+        "hint": "Recuerda que la privacidad y los límites personales siguen vigentes.",
+        "source": "Módulo 1 · pp. 61–62 y aclaración de la guía"
+      }
+    ]
+  },
+  {
+    "id": "m1-integral",
+    "title": "Repaso integral · Módulo corporal",
+    "description": "Practica las 64 preguntas de los ocho temas. El examen final avanzado tiene su propia pestaña y preguntas nuevas.",
+    "source": "Módulo 1 · pp. 2–63 y aclaraciones de la guía",
+    "questions": [
+      {
+        "id": "m1-mecanica-01",
+        "topicId": "mecanica",
+        "prompt": "¿Qué describe mejor la ergonomía aplicada al masaje?",
+        "options": [
+          "Mantener una postura fija durante toda la sesión.",
+          "Aumentar la presión mediante la fuerza de las manos.",
+          "Elegir maniobras según la historia del masaje.",
+          "Adaptar espacio, equipo y trabajo a la profesional."
+        ],
+        "answer": 3,
+        "explanation": "La ergonomía adapta las condiciones de trabajo para disminuir fatiga y prevenir lesiones musculoesqueléticas.",
+        "optionExplanations": [
+          "Una postura fija no define ergonomía; el entorno y la forma de trabajo deben adaptarse.",
+          "El objetivo no es aumentar la fuerza manual, sino reducir cargas innecesarias.",
+          "La historia aporta contexto, pero no define la adaptación del puesto de trabajo.",
+          "La ergonomía adapta las condiciones de trabajo para disminuir fatiga y prevenir lesiones musculoesqueléticas."
+        ],
+        "hint": "Piensa en la relación entre la profesional y su entorno.",
+        "source": "Módulo 1 · p. 2"
+      },
+      {
+        "id": "m1-posturas-01",
+        "topicId": "posturas",
+        "prompt": "¿Qué posición facilita deslizamientos longitudinales transfiriendo peso de atrás hacia adelante?",
+        "options": [
+          "T’ai Chi.",
+          "Sentada al borde.",
+          "Semiarrodillada.",
+          "Ataque de esgrima."
+        ],
+        "answer": 3,
+        "explanation": "Un pie adelantado y rodillas ligeramente flexionadas facilitan esa transferencia en maniobras largas.",
+        "optionExplanations": [
+          "Esta postura destaca cambios laterales de peso, no la transferencia longitudinal descrita.",
+          "Se asocia con precisión y poca presión, con un pie en el suelo.",
+          "Se caracteriza por una rodilla apoyada y trabajo con camillas bajas.",
+          "Un pie adelantado y rodillas ligeramente flexionadas facilitan esa transferencia en maniobras largas."
+        ],
+        "hint": "La dirección del desplazamiento es la clave.",
+        "source": "Módulo 1 · pp. 5–6"
+      },
+      {
+        "id": "m1-preparacion-01",
+        "topicId": "preparacion",
+        "prompt": "¿Qué duración propone el módulo para prepararse antes del masaje?",
+        "options": [
+          "Aproximadamente 15 a 20 segundos.",
+          "Aproximadamente 20 a 30 minutos.",
+          "Exactamente una hora en todas las sesiones.",
+          "Aproximadamente 3 a 5 minutos."
+        ],
+        "answer": 3,
+        "explanation": "Ese es el intervalo propuesto para respirar, movilizar articulaciones y ensayar posturas.",
+        "optionExplanations": [
+          "Es menor que el intervalo indicado y no coincide con la referencia del material.",
+          "No es el tiempo de preparación que indica el módulo.",
+          "El módulo no exige una hora ni un tiempo rígido universal.",
+          "Ese es el intervalo propuesto para respirar, movilizar articulaciones y ensayar posturas."
+        ],
+        "hint": "Es una preparación breve previa al trabajo.",
+        "source": "Módulo 1 · p. 23"
+      },
+      {
+        "id": "m1-historia-01",
+        "topicId": "historia",
+        "prompt": "¿Sobre qué se aplican las maniobras que definen el masaje en el módulo?",
+        "options": [
+          "Solo sobre los huesos mediante palancas.",
+          "Solo sobre el cabello y sus folículos.",
+          "Solo sobre puntos de acupuntura con agujas.",
+          "Sobre los tejidos blandos del cuerpo."
+        ],
+        "answer": 3,
+        "explanation": "La definición se centra en manipulación de tejidos blandos con objetivos acordes a la preparación profesional.",
+        "optionExplanations": [
+          "No corresponde a la definición de manipulación de tejidos blandos.",
+          "El módulo se refiere al masaje corporal de tejidos blandos.",
+          "La definición no es la de acupuntura ni exige agujas.",
+          "La definición se centra en manipulación de tejidos blandos con objetivos acordes a la preparación profesional."
+        ],
+        "hint": "Recuerda la definición antes de pensar en una técnica concreta.",
+        "source": "Módulo 1 · p. 26"
+      },
+      {
+        "id": "m1-tipos-01",
+        "topicId": "tipos",
+        "prompt": "¿Qué distingue el ámbito del masaje terapéutico?",
+        "options": [
+          "Siempre requiere mayor presión que el estético.",
+          "Permite diagnosticar enfermedades tras estudiar un solo módulo.",
+          "Se define exclusivamente por usar cosméticos caros.",
+          "Un contexto sanitario con preparación y competencias adecuadas."
+        ],
+        "answer": 3,
+        "explanation": "El módulo lo sitúa en prevención o tratamiento de problemas de salud; eso exige respetar el campo profesional.",
+        "optionExplanations": [
+          "La intensidad por sí sola no define el ámbito terapéutico.",
+          "Estudiar el módulo no confiere competencia para diagnóstico médico.",
+          "El precio del producto no determina la finalidad sanitaria.",
+          "El módulo lo sitúa en prevención o tratamiento de problemas de salud; eso exige respetar el campo profesional."
+        ],
+        "hint": "La diferencia no se limita a que se utilice más presión.",
+        "source": "Módulo 1 · p. 39 y aclaración de la guía"
+      },
+      {
+        "id": "m1-efectos-01",
+        "topicId": "efectos",
+        "prompt": "¿Qué significa hiperemia local en el contexto de la piel?",
+        "options": [
+          "Desaparición completa de la capa córnea.",
+          "Pérdida permanente del tejido adiposo.",
+          "Bloqueo total de las terminaciones nerviosas.",
+          "Mayor afluencia de sangre en la zona."
+        ],
+        "answer": 3,
+        "explanation": "El módulo relaciona el aumento local de temperatura con hiperemia; se refiere al flujo sanguíneo local.",
+        "optionExplanations": [
+          "El texto menciona arrastre de células superficiales, no desaparición de toda la capa.",
+          "La hiperemia es un fenómeno sanguíneo, no pérdida de grasa.",
+          "No es una definición de anestesia ni bloqueo nervioso.",
+          "El módulo relaciona el aumento local de temperatura con hiperemia; se refiere al flujo sanguíneo local."
+        ],
+        "hint": "No la confundas con eliminación de grasa.",
+        "source": "Módulo 1 · p. 43"
+      },
+      {
+        "id": "m1-seguridad-01",
+        "topicId": "seguridad",
+        "prompt": "¿Qué corresponde a la valoración de una cosmetóloga?",
+        "options": [
+          "Diagnosticar una enfermedad con una maniobra de masaje.",
+          "Omitir cirugías previas si la piel se ve normal.",
+          "Elegir siempre la misma técnica para todas las personas.",
+          "Revisar antecedentes y detectar motivos para derivar."
+        ],
+        "answer": 3,
+        "explanation": "En la guía, valoración estética significa recopilar información y reconocer límites, no diagnosticar enfermedades.",
+        "optionExplanations": [
+          "No corresponde a la competencia derivada de este módulo.",
+          "El módulo indica revisar antecedentes y cirugías.",
+          "La valoración sirve precisamente para adaptar o posponer.",
+          "En la guía, valoración estética significa recopilar información y reconocer límites, no diagnosticar enfermedades."
+        ],
+        "hint": "Distingue observar una señal de establecer un diagnóstico médico.",
+        "source": "Módulo 1 · pp. 38 y 50"
+      },
+      {
+        "id": "m1-cabina-01",
+        "topicId": "cabina",
+        "prompt": "¿Qué preparación de manos y accesorios indica el módulo?",
+        "options": [
+          "Usar perfume en lugar de lavarse las manos.",
+          "Conservar anillos si no se ven sucios.",
+          "Lavarse solo al terminar la jornada.",
+          "Lavar manos, llevar uñas cortas y retirar joyas y reloj."
+        ],
+        "answer": 3,
+        "explanation": "Se busca higiene y evitar interferencias durante el contacto; el lavado se realiza antes y después.",
+        "optionExplanations": [
+          "El perfume no sustituye la higiene de manos.",
+          "El módulo indica retirar anillos, pulseras y reloj.",
+          "Se indica antes y después de cada servicio.",
+          "Se busca higiene y evitar interferencias durante el contacto; el lavado se realiza antes y después."
+        ],
+        "hint": "Recuerda lo que puede retener suciedad o dificultar el contacto.",
+        "source": "Módulo 1 · p. 55"
+      },
+      {
+        "id": "m1-mecanica-02",
+        "topicId": "mecanica",
+        "prompt": "La mecánica corporal se refiere principalmente a…",
+        "options": [
+          "Cómo utilizas postura, equilibrio y movimiento.",
+          "La organización de los envases en la cabina.",
+          "La clasificación de aparatos no manuales.",
+          "Los cambios visibles de temperatura en la piel."
+        ],
+        "answer": 0,
+        "explanation": "Describe la manera de utilizar el cuerpo para realizar la actividad, incluyendo postura, equilibrio, músculos y movimiento.",
+        "optionExplanations": [
+          "Describe la manera de utilizar el cuerpo para realizar la actividad, incluyendo postura, equilibrio, músculos y movimiento.",
+          "Organizar material pertenece al entorno de trabajo, no a la definición de mecánica corporal.",
+          "Esa clasificación describe equipos, no el uso de tu cuerpo.",
+          "Ese es un posible efecto del masaje, no la mecánica de la profesional."
+        ],
+        "hint": "Distingue el entorno de la manera de moverte.",
+        "source": "Módulo 1 · p. 2"
+      },
+      {
+        "id": "m1-posturas-02",
+        "topicId": "posturas",
+        "prompt": "Para un amasamiento con transferencia lateral del peso, ¿qué postura encaja?",
+        "options": [
+          "T’ai Chi.",
+          "Oscilante.",
+          "Semiarrodillada.",
+          "Sentada al borde."
+        ],
+        "answer": 0,
+        "explanation": "Los pies separados y el cambio de peso de un lado al otro acompañan maniobras laterales y amplias.",
+        "optionExplanations": [
+          "Los pies separados y el cambio de peso de un lado al otro acompañan maniobras laterales y amplias.",
+          "La oscilante se describe como balanceo hacia adelante y atrás.",
+          "Su característica principal es apoyar una rodilla, no el desplazamiento lateral.",
+          "Esta posición prioriza precisión y descanso de pie, no la transferencia lateral amplia."
+        ],
+        "hint": "Busca la postura cuyo movimiento central es de lado a lado.",
+        "source": "Módulo 1 · pp. 7–8"
+      },
+      {
+        "id": "m1-preparacion-02",
+        "topicId": "preparacion",
+        "prompt": "¿Qué respiración se incluye en la preparación?",
+        "options": [
+          "Respiración diafragmática.",
+          "Apnea mantenida durante las transferencias.",
+          "Respiración rápida y forzada de forma continua.",
+          "Respirar únicamente al terminar el masaje."
+        ],
+        "answer": 0,
+        "explanation": "El módulo abre la preparación con respiración diafragmática, junto con movilidad suave.",
+        "optionExplanations": [
+          "El módulo abre la preparación con respiración diafragmática, junto con movilidad suave.",
+          "Contener el aire no corresponde a la preparación descrita.",
+          "No es la técnica respiratoria indicada en el módulo.",
+          "La respiración se integra antes y se coordina con el movimiento."
+        ],
+        "hint": "Se relaciona con el diafragma y una preparación tranquila.",
+        "source": "Módulo 1 · p. 23"
+      },
+      {
+        "id": "m1-historia-02",
+        "topicId": "historia",
+        "prompt": "¿Qué asociación cultural coincide con el módulo?",
+        "options": [
+          "India: Abhyanga y uso de aceites en Ayurveda.",
+          "Japón: Abhyanga dentro de los baños romanos.",
+          "Egipto: creación de la gimnasia sueca de Ling.",
+          "China: organización de términos franceses por Galeno."
+        ],
+        "answer": 0,
+        "explanation": "El material sitúa Abhyanga dentro de rutinas ayurvédicas que incluyen aceites y cuidado corporal.",
+        "optionExplanations": [
+          "El material sitúa Abhyanga dentro de rutinas ayurvédicas que incluyen aceites y cuidado corporal.",
+          "Combina una práctica india con dos contextos que no corresponden.",
+          "La gimnasia de Ling se sitúa en Suecia y el siglo XIX.",
+          "Los términos franceses se vinculan con Mezger, no con Galeno ni esa asociación china."
+        ],
+        "hint": "Relaciona el nombre de la práctica con su tradición.",
+        "source": "Módulo 1 · pp. 28–31"
+      },
+      {
+        "id": "m1-tipos-02",
+        "topicId": "tipos",
+        "prompt": "¿Cuál pertenece a la clasificación manual del módulo?",
+        "options": [
+          "Masaje clásico o sueco.",
+          "Presoterapia neumática.",
+          "Ultrasonido estético.",
+          "Hidromasaje con chorros."
+        ],
+        "answer": 0,
+        "explanation": "Se realiza con las manos mediante maniobras sobre tejidos blandos; el módulo lo clasifica como manual.",
+        "optionExplanations": [
+          "Se realiza con las manos mediante maniobras sobre tejidos blandos; el módulo lo clasifica como manual.",
+          "El módulo la incluye entre técnicas con equipos.",
+          "Requiere equipo y se clasifica como no manual.",
+          "Se realiza mediante agua y equipos, no como masaje manual."
+        ],
+        "hint": "Busca una técnica, no un aparato.",
+        "source": "Módulo 1 · p. 41"
+      },
+      {
+        "id": "m1-efectos-02",
+        "topicId": "efectos",
+        "prompt": "El PDF menciona un aumento de 2–3 °C. ¿Cómo estudiarlo?",
+        "options": [
+          "Como referencia del material, no como respuesta universal garantizada.",
+          "Como temperatura que debe forzarse en todo cliente.",
+          "Como prueba automática de pérdida de grasa.",
+          "Como temperatura ambiental recomendada para la cabina."
+        ],
+        "answer": 0,
+        "explanation": "La guía distingue un número citado en el módulo de una medición fija para cualquier persona y técnica.",
+        "optionExplanations": [
+          "La guía distingue un número citado en el módulo de una medición fija para cualquier persona y técnica.",
+          "No constituye una meta que deba forzarse mediante fricción o calor.",
+          "Un cambio de temperatura no demuestra pérdida de grasa.",
+          "La temperatura de cabina mencionada es aproximadamente 22–24 °C."
+        ],
+        "hint": "Una cifra de clase no elimina la variabilidad.",
+        "source": "Módulo 1 · p. 43 y aclaración de la guía"
+      },
+      {
+        "id": "m1-seguridad-02",
+        "topicId": "seguridad",
+        "prompt": "Si se sospecha trombosis venosa profunda, ¿qué procede?",
+        "options": [
+          "No masajear la zona y solicitar valoración médica.",
+          "Aplicar masaje profundo para movilizar el coágulo.",
+          "Probar percusiones para ver si desaparece el dolor.",
+          "Utilizar crema y continuar con la misma presión."
+        ],
+        "answer": 0,
+        "explanation": "No se intenta tratar ni comprobar un coágulo con masaje; la situación requiere evaluación sanitaria.",
+        "optionExplanations": [
+          "No se intenta tratar ni comprobar un coágulo con masaje; la situación requiere evaluación sanitaria.",
+          "Esa intervención es peligrosa y no está indicada.",
+          "El masaje no es una prueba diagnóstica de trombosis.",
+          "Cambiar el producto no resuelve el riesgo vascular."
+        ],
+        "hint": "Es una situación vascular potencialmente seria.",
+        "source": "Módulo 1 · p. 51 y aclaración de seguridad"
+      },
+      {
+        "id": "m1-cabina-02",
+        "topicId": "cabina",
+        "prompt": "¿Qué medida ayuda a evitar contaminación cruzada entre servicios?",
+        "options": [
+          "Textiles limpios y separación de material limpio y usado.",
+          "Reutilizar textiles si todavía huelen bien.",
+          "Guardar material usado junto al limpio para ahorrar espacio.",
+          "Cambiar solo la música entre clientes."
+        ],
+        "answer": 0,
+        "explanation": "El módulo incluye textiles limpios por cliente, limpieza de superficies y separación del material.",
+        "optionExplanations": [
+          "El módulo incluye textiles limpios por cliente, limpieza de superficies y separación del material.",
+          "El olor no demuestra limpieza ni sustituye textiles limpios por cliente.",
+          "Mezclarlos contradice la separación indicada.",
+          "El ambiente no sustituye las medidas de higiene."
+        ],
+        "hint": "Lo utilizado no debe mezclarse con lo listo para el próximo servicio.",
+        "source": "Módulo 1 · pp. 55 y 58"
+      },
+      {
+        "id": "m1-mecanica-03",
+        "topicId": "mecanica",
+        "prompt": "¿Qué combinación explica la carga física del trabajo de masaje?",
+        "options": [
+          "Luz tenue, música y privacidad visual.",
+          "Repetición, presión y permanencia prolongada de pie.",
+          "Uso de aceites, aromas y textiles limpios.",
+          "Lectura de antecedentes y registro de resultados."
+        ],
+        "answer": 1,
+        "explanation": "El módulo destaca repetición, presión sostenida, posturas y uso continuo de manos, muñecas, hombros y espalda.",
+        "optionExplanations": [
+          "Describen ambiente, no las cargas físicas de las maniobras.",
+          "El módulo destaca repetición, presión sostenida, posturas y uso continuo de manos, muñecas, hombros y espalda.",
+          "Son elementos de la cabina, pero no explican directamente la carga musculoesquelética.",
+          "Son tareas importantes, pero no corresponden a las exigencias físicas destacadas."
+        ],
+        "hint": "Piensa en lo que acumulas a lo largo de varias sesiones.",
+        "source": "Módulo 1 · p. 3"
+      },
+      {
+        "id": "m1-posturas-03",
+        "topicId": "posturas",
+        "prompt": "En la postura con flexión de codo, ¿cómo se produce la presión?",
+        "options": [
+          "Moviendo solo la muñeca mientras el cuerpo permanece rígido.",
+          "Transfiriendo el peso hacia adelante con contacto del antebrazo.",
+          "Contrayendo con máxima fuerza el brazo flexionado.",
+          "Manteniendo todo el peso sobre el pie trasero."
+        ],
+        "answer": 1,
+        "explanation": "Se parte del ataque de esgrima y se usa el antebrazo; la presión no debe depender de una contracción excesiva del brazo.",
+        "optionExplanations": [
+          "No aprovecha el desplazamiento corporal y puede concentrar la carga.",
+          "Se parte del ataque de esgrima y se usa el antebrazo; la presión no debe depender de una contracción excesiva del brazo.",
+          "El módulo pide evitar que la presión dependa de una contracción excesiva.",
+          "La transferencia hacia adelante es la que genera la presión descrita."
+        ],
+        "hint": "Relaciona superficie de contacto y origen del esfuerzo.",
+        "source": "Módulo 1 · pp. 9–10"
+      },
+      {
+        "id": "m1-preparacion-03",
+        "topicId": "preparacion",
+        "prompt": "¿Cuál rutina representa mejor la preparación corporal del módulo?",
+        "options": [
+          "Solo revisar la iluminación de la cabina.",
+          "Movilidad suave de varias articulaciones y ensayo de posturas.",
+          "Solo abrir y cerrar las manos varias veces.",
+          "Solo estirar el cuello con movimientos bruscos."
+        ],
+        "answer": 1,
+        "explanation": "Incluye cuello, hombros, codos, muñecas, manos, tórax, caderas, rodillas, tobillos y transferencias de peso.",
+        "optionExplanations": [
+          "Es preparación del ambiente, no de la mecánica de la profesional.",
+          "Incluye cuello, hombros, codos, muñecas, manos, tórax, caderas, rodillas, tobillos y transferencias de peso.",
+          "Ese ejercicio sí aparece, pero no resume la preparación corporal completa.",
+          "El módulo propone movilidad cervical suave, no brusca ni como único trabajo."
+        ],
+        "hint": "El masaje involucra más partes del cuerpo que las manos.",
+        "source": "Módulo 1 · p. 23"
+      },
+      {
+        "id": "m1-historia-03",
+        "topicId": "historia",
+        "prompt": "¿Qué significa Shiatsu?",
+        "options": [
+          "Gimnasia sueca con aparatos.",
+          "Presión con los dedos.",
+          "Masaje con aceites.",
+          "Percusión con chorros de agua."
+        ],
+        "answer": 1,
+        "explanation": "El módulo explica ese significado y menciona pulgares, palmas y dedos aplicados en puntos tradicionales.",
+        "optionExplanations": [
+          "Shiatsu pertenece a la tradición japonesa descrita, no al sistema sueco.",
+          "El módulo explica ese significado y menciona pulgares, palmas y dedos aplicados en puntos tradicionales.",
+          "Esa asociación corresponde a Abhyanga.",
+          "No corresponde al significado de Shiatsu."
+        ],
+        "hint": "El nombre se relaciona con la forma de contacto.",
+        "source": "Módulo 1 · p. 29"
+      },
+      {
+        "id": "m1-tipos-03",
+        "topicId": "tipos",
+        "prompt": "¿Qué medio caracteriza al hidromasaje?",
+        "options": [
+          "Presión digital sobre tsubos.",
+          "Agua mediante chorros, duchas, burbujas o remolinos.",
+          "Compresión mediante cámaras de aire.",
+          "Succión mediante ventosas."
+        ],
+        "answer": 1,
+        "explanation": "La variedad de movimientos del agua es el elemento común de los ejemplos de hidromasaje del módulo.",
+        "optionExplanations": [
+          "Es la descripción tradicional de Shiatsu.",
+          "La variedad de movimientos del agua es el elemento común de los ejemplos de hidromasaje del módulo.",
+          "Describe presoterapia, no hidromasaje.",
+          "Se relaciona con vacuumterapia."
+        ],
+        "hint": "Fíjate en el prefijo hidro-.",
+        "source": "Módulo 1 · p. 40"
+      },
+      {
+        "id": "m1-efectos-03",
+        "topicId": "efectos",
+        "prompt": "¿Qué decisión es adecuada ante una hinchazón de causa desconocida?",
+        "options": [
+          "Elegir presoterapia solo por la sensación de pesadez.",
+          "Valorar la causa y derivar cuando corresponda antes de intervenir.",
+          "Aplicar automáticamente masaje profundo en la zona.",
+          "Asumir que cualquier edema es únicamente estético."
+        ],
+        "answer": 1,
+        "explanation": "El módulo requiere valoración y precauciones: mencionar drenaje no autoriza masajear todo edema.",
+        "optionExplanations": [
+          "Un síntoma aislado no establece la indicación de un equipo.",
+          "El módulo requiere valoración y precauciones: mencionar drenaje no autoriza masajear todo edema.",
+          "La intensidad profunda no es una respuesta segura a toda hinchazón.",
+          "Puede tener causas que necesitan evaluación sanitaria."
+        ],
+        "hint": "La palabra edema describe una manifestación, no su causa.",
+        "source": "Módulo 1 · p. 44"
+      },
+      {
+        "id": "m1-seguridad-03",
+        "topicId": "seguridad",
+        "prompt": "¿Qué situación exige valorar y posponer el trabajo afectado?",
+        "options": [
+          "Elegir no usar aromas en la cabina.",
+          "Fiebre o una infección activa.",
+          "Preferir música a volumen bajo.",
+          "Solicitar una almohada adicional."
+        ],
+        "answer": 1,
+        "explanation": "El módulo las incluye entre las situaciones que requieren precaución; no se continúa de forma automática.",
+        "optionExplanations": [
+          "Es una decisión que puede respetarse sin implicar infección o fiebre.",
+          "El módulo las incluye entre las situaciones que requieren precaución; no se continúa de forma automática.",
+          "Es una preferencia de ambiente, no esa señal de riesgo.",
+          "Es una adaptación de comodidad."
+        ],
+        "hint": "Piensa en señales actuales, no solo en preferencias.",
+        "source": "Módulo 1 · pp. 51–52"
+      },
+      {
+        "id": "m1-cabina-03",
+        "topicId": "cabina",
+        "prompt": "¿Cómo debe extraerse un cosmético del envase?",
+        "options": [
+          "Usando la misma porción abierta para varias personas.",
+          "Con espátula o dispensador y sin devolver sobrantes.",
+          "Introduciendo de nuevo las manos después de tocar al cliente.",
+          "Devolviendo la crema sobrante para no desperdiciarla."
+        ],
+        "answer": 1,
+        "explanation": "El módulo busca evitar contaminar el contenido del envase al extraer o reintroducir producto.",
+        "optionExplanations": [
+          "No respeta la preparación higiénica de cantidad necesaria para cada servicio.",
+          "El módulo busca evitar contaminar el contenido del envase al extraer o reintroducir producto.",
+          "Puede trasladar contaminación al producto restante.",
+          "El módulo indica no regresar sobrantes al envase."
+        ],
+        "hint": "Piensa en el recorrido de lo que ya estuvo fuera del recipiente.",
+        "source": "Módulo 1 · pp. 55 y 59"
+      },
+      {
+        "id": "m1-mecanica-04",
+        "topicId": "mecanica",
+        "prompt": "¿Qué alineación concuerda con el módulo?",
+        "options": [
+          "Columna flexionada y rodillas bloqueadas.",
+          "Pies juntos y rodillas completamente rígidas.",
+          "Columna neutra y hombros relajados.",
+          "Cabeza adelantada y hombros elevados."
+        ],
+        "answer": 2,
+        "explanation": "La columna neutra y los hombros relajados forman parte de los principios de buena mecánica corporal.",
+        "optionExplanations": [
+          "La flexión excesiva del tronco y las rodillas bloqueadas no ofrecen la adaptación indicada.",
+          "El módulo recomienda base estable y ligera flexión de rodillas y caderas.",
+          "La columna neutra y los hombros relajados forman parte de los principios de buena mecánica corporal.",
+          "Adelantar excesivamente la cabeza y elevar los hombros contradice los principios del módulo."
+        ],
+        "hint": "Busca una posición que evite compensaciones innecesarias.",
+        "source": "Módulo 1 · p. 4"
+      },
+      {
+        "id": "m1-posturas-04",
+        "topicId": "posturas",
+        "prompt": "¿Qué precaución corresponde a sentarse al borde de la camilla?",
+        "options": [
+          "Retirar el pie del suelo para aumentar el alcance.",
+          "Considerarla estable en cualquier tipo de camilla.",
+          "Revisar especialmente la estabilidad si es estrecha o plegable.",
+          "Utilizarla para toda maniobra de presión profunda."
+        ],
+        "answer": 2,
+        "explanation": "El módulo advierte que esta posición no siempre es recomendable, especialmente en camillas estrechas o plegables.",
+        "optionExplanations": [
+          "El pie apoyado contribuye a conservar el equilibrio.",
+          "La advertencia del módulo exige precisamente revisar esa estabilidad.",
+          "El módulo advierte que esta posición no siempre es recomendable, especialmente en camillas estrechas o plegables.",
+          "Se presenta para precisión y poca presión, no para toda maniobra profunda."
+        ],
+        "hint": "Piensa en el soporte que recibe el peso de la profesional.",
+        "source": "Módulo 1 · pp. 11–12"
+      },
+      {
+        "id": "m1-preparacion-04",
+        "topicId": "preparacion",
+        "prompt": "¿Qué significa decúbito supino?",
+        "options": [
+          "Estar sentado al borde de la camilla.",
+          "Estar arrodillado frente a la camilla.",
+          "Estar acostado boca arriba.",
+          "Estar acostado boca abajo."
+        ],
+        "answer": 2,
+        "explanation": "En supino, la espalda descansa sobre la superficie y la mirada se dirige hacia arriba.",
+        "optionExplanations": [
+          "Es una postura sentada, no un decúbito supino.",
+          "Describe una postura de apoyo sobre rodillas, no la posición supina.",
+          "En supino, la espalda descansa sobre la superficie y la mirada se dirige hacia arriba.",
+          "Boca abajo corresponde al decúbito prono."
+        ],
+        "hint": "Piensa hacia dónde mira el rostro.",
+        "source": "Módulo 1 · p. 24"
+      },
+      {
+        "id": "m1-historia-04",
+        "topicId": "historia",
+        "prompt": "¿Qué describe el Anma en el módulo?",
+        "options": [
+          "Masaje indio con aceites llamado Abhyanga.",
+          "Conjunto de términos franceses organizado por Mezger.",
+          "Técnica japonesa con influencia china, principalmente sobre ropa.",
+          "Compresión neumática mediante botas inflables."
+        ],
+        "answer": 2,
+        "explanation": "El Anma se presenta con presiones, amasamientos, fricciones y movilizaciones, con influencia de la medicina china.",
+        "optionExplanations": [
+          "Es otra tradición y otro nombre.",
+          "Se refiere a la clasificación del masaje clásico, no a Anma.",
+          "El Anma se presenta con presiones, amasamientos, fricciones y movilizaciones, con influencia de la medicina china.",
+          "Describe un equipo de presoterapia, no Anma."
+        ],
+        "hint": "Distingue Anma de masaje con aceites y aparatos.",
+        "source": "Módulo 1 · p. 29"
+      },
+      {
+        "id": "m1-tipos-04",
+        "topicId": "tipos",
+        "prompt": "¿Qué diferencia vacuumterapia de presoterapia neumática?",
+        "options": [
+          "Vacuumterapia: aceites; presoterapia: dedos.",
+          "Ambas son sinónimos de masaje sueco manual.",
+          "Vacuumterapia: succión; presoterapia: compresión.",
+          "Ambas se definen por utilizar únicamente agua."
+        ],
+        "answer": 2,
+        "explanation": "La guía separa succión o vacío de compresión neumática para aclarar la clasificación del PDF.",
+        "optionExplanations": [
+          "Confunde mecanismos de equipos con medios manuales.",
+          "Son modalidades con equipos, no sinónimos del masaje sueco.",
+          "La guía separa succión o vacío de compresión neumática para aclarar la clasificación del PDF.",
+          "El agua caracteriza hidromasaje, no esos dos mecanismos."
+        ],
+        "hint": "Compara atraer tejido mediante vacío con comprimir externamente.",
+        "source": "Módulo 1 · p. 40 y aclaración de la guía"
+      },
+      {
+        "id": "m1-efectos-04",
+        "topicId": "efectos",
+        "prompt": "¿Qué ritmo relaciona el módulo con relajación?",
+        "options": [
+          "Maniobras bruscas y de intensidad máxima.",
+          "Maniobras sin contacto continuo ni ritmo.",
+          "Maniobras lentas y rítmicas.",
+          "Maniobras rápidas y breves en todos los casos."
+        ],
+        "answer": 2,
+        "explanation": "El material las asocia a relajación, mientras que las rápidas y breves pueden ser más estimulantes.",
+        "optionExplanations": [
+          "La brusquedad no es el patrón relajante descrito.",
+          "No coincide con la combinación lenta y rítmica.",
+          "El material las asocia a relajación, mientras que las rápidas y breves pueden ser más estimulantes.",
+          "El módulo las asocia más a estimulación."
+        ],
+        "hint": "Compara un ritmo sostenido y suave con estímulos rápidos.",
+        "source": "Módulo 1 · pp. 45 y 47"
+      },
+      {
+        "id": "m1-seguridad-04",
+        "topicId": "seguridad",
+        "prompt": "¿Cómo interpretar un antecedente de cáncer?",
+        "options": [
+          "Implica que el masaje cura el proceso oncológico.",
+          "Prohíbe toda forma de contacto de por vida.",
+          "Requiere valoración individual y posibles adaptaciones sanitarias.",
+          "Puede ignorarse si se utiliza poca crema."
+        ],
+        "answer": 2,
+        "explanation": "El NCCIH describe masaje de apoyo con precauciones; no es tratamiento del cáncer ni una prohibición idéntica en todos los casos.",
+        "optionExplanations": [
+          "No es un tratamiento del cáncer.",
+          "Esa prohibición universal no refleja una valoración individual.",
+          "El NCCIH describe masaje de apoyo con precauciones; no es tratamiento del cáncer ni una prohibición idéntica en todos los casos.",
+          "El producto no elimina la necesidad de valorar antecedentes."
+        ],
+        "hint": "Evita tanto ignorar el antecedente como generalizar una prohibición.",
+        "source": "Módulo 1 · pp. 51–52 y aclaración NCCIH"
+      },
+      {
+        "id": "m1-cabina-04",
+        "topicId": "cabina",
+        "prompt": "Un producto cambia de olor antes de caducar. ¿Qué haces?",
+        "options": [
+          "Mezclarlo con uno nuevo para corregir el olor.",
+          "Añadir un aroma y continuar usándolo.",
+          "Desecharlo y revisar las condiciones de almacenamiento.",
+          "Usarlo porque todavía no vence."
+        ],
+        "answer": 2,
+        "explanation": "El módulo indica desechar productos con cambios de olor, color o textura; la fecha no es el único criterio.",
+        "optionExplanations": [
+          "No resuelve la alteración y puede afectar el producto nuevo.",
+          "Enmascarar el olor no establece que el producto sea adecuado.",
+          "El módulo indica desechar productos con cambios de olor, color o textura; la fecha no es el único criterio.",
+          "Una fecha vigente no anula una alteración del producto."
+        ],
+        "hint": "La apariencia y las condiciones también importan.",
+        "source": "Módulo 1 · p. 59"
+      },
+      {
+        "id": "m1-mecanica-05",
+        "topicId": "mecanica",
+        "prompt": "Para generar presión, ¿de dónde debe partir principalmente la transferencia de peso?",
+        "options": [
+          "De una contracción continua de los pulgares.",
+          "De elevar los hombros durante la maniobra.",
+          "De inclinar la cabeza hacia la zona tratada.",
+          "De las piernas y del desplazamiento corporal."
+        ],
+        "answer": 3,
+        "explanation": "Transferir el peso desde las piernas permite que el cuerpo aporte presión sin depender solo de manos o brazos.",
+        "optionExplanations": [
+          "Concentra el esfuerzo en una zona pequeña en vez de distribuirlo corporalmente.",
+          "Elevar los hombros crea una compensación contraria a mantenerlos relajados.",
+          "Adelantar la cabeza no es la forma indicada de transferir peso.",
+          "Transferir el peso desde las piernas permite que el cuerpo aporte presión sin depender solo de manos o brazos."
+        ],
+        "hint": "Recuerda que la mano transmite el contacto, pero no necesita producir toda la fuerza.",
+        "source": "Módulo 1 · p. 21"
+      },
+      {
+        "id": "m1-posturas-05",
+        "topicId": "posturas",
+        "prompt": "¿Desde dónde se describe la inclinación de la postura inclinada?",
+        "options": [
+          "Desde la región lumbar, dejando la pelvis atrás.",
+          "Desde el cuello, acercando la cabeza a las manos.",
+          "Desde los hombros, manteniéndolos elevados.",
+          "Desde los tobillos, conservando cabeza, columna y pelvis alineadas."
+        ],
+        "answer": 3,
+        "explanation": "El cuerpo se inclina alineado; no se trata de doblar excesivamente la columna.",
+        "optionExplanations": [
+          "Eso rompe la alineación descrita y concentra la flexión en la espalda.",
+          "La cabeza no debe ser el origen del movimiento.",
+          "Elevar hombros contradice la alineación y relajación recomendadas.",
+          "El cuerpo se inclina alineado; no se trata de doblar excesivamente la columna."
+        ],
+        "hint": "Distingue inclinar un conjunto alineado de encorvar el tronco.",
+        "source": "Módulo 1 · pp. 13–14"
+      },
+      {
+        "id": "m1-preparacion-05",
+        "topicId": "preparacion",
+        "prompt": "¿Qué significa decúbito prono?",
+        "options": [
+          "Estar acostado boca arriba.",
+          "Estar sentado con la espalda recta.",
+          "Estar de pie con las rodillas flexionadas.",
+          "Estar acostado boca abajo."
+        ],
+        "answer": 3,
+        "explanation": "El prono se define por apoyar la parte anterior del cuerpo, boca abajo.",
+        "optionExplanations": [
+          "Esa definición corresponde al supino.",
+          "Sentarse no es un decúbito prono.",
+          "Es una posición de pie, no una posición acostada.",
+          "El prono se define por apoyar la parte anterior del cuerpo, boca abajo."
+        ],
+        "hint": "Compara con el supino, cuya espalda está apoyada.",
+        "source": "Módulo 1 · p. 24"
+      },
+      {
+        "id": "m1-historia-05",
+        "topicId": "historia",
+        "prompt": "¿Qué pareja de personajes y contexto coincide con el módulo?",
+        "options": [
+          "Hipócrates: Japón; Galeno: India.",
+          "Hipócrates: Roma; Galeno: China.",
+          "Hipócrates: Suecia; Galeno: Países Bajos.",
+          "Hipócrates: Grecia; Galeno: Roma."
+        ],
+        "answer": 3,
+        "explanation": "El material relaciona a Hipócrates con fricciones en Grecia y a Galeno con masaje, ejercicio e higiene en Roma.",
+        "optionExplanations": [
+          "No son las asociaciones que presenta el módulo.",
+          "Intercambia y desplaza los contextos del material.",
+          "Esos contextos se relacionan con Ling y Mezger, respectivamente.",
+          "El material relaciona a Hipócrates con fricciones en Grecia y a Galeno con masaje, ejercicio e higiene en Roma."
+        ],
+        "hint": "Ubica primero a los personajes en las dos culturas clásicas.",
+        "source": "Módulo 1 · pp. 32–33"
+      },
+      {
+        "id": "m1-tipos-05",
+        "topicId": "tipos",
+        "prompt": "¿Con qué sistema se relaciona el drenaje linfático manual?",
+        "options": [
+          "Exclusivamente con el sistema óseo.",
+          "Solo con los folículos del cabello.",
+          "Únicamente con presión profunda sobre músculos.",
+          "Con la anatomía y funcionamiento del sistema linfático."
+        ],
+        "answer": 3,
+        "explanation": "Así se presenta en el módulo; no es sinónimo de masaje muscular profundo ni se aplica sin valorar una hinchazón.",
+        "optionExplanations": [
+          "El enfoque nombrado es linfático, no exclusivamente óseo.",
+          "No es el sistema al que se refiere esta modalidad.",
+          "La intensidad profunda no define el drenaje linfático manual.",
+          "Así se presenta en el módulo; no es sinónimo de masaje muscular profundo ni se aplica sin valorar una hinchazón."
+        ],
+        "hint": "El nombre indica la estructura principal que estudia.",
+        "source": "Módulo 1 · p. 41"
+      },
+      {
+        "id": "m1-efectos-05",
+        "topicId": "efectos",
+        "prompt": "¿Qué conclusión evita una promesa no respaldada?",
+        "options": [
+          "Todo masaje reduce permanentemente la grasa localizada.",
+          "Todo cambio de perímetro demuestra destrucción de adipocitos.",
+          "Una sesión permite garantizar reducción de peso.",
+          "Mejorar temporalmente la apariencia no demuestra pérdida de grasa."
+        ],
+        "answer": 3,
+        "explanation": "La guía distingue apariencia y contorno de reducción de tejido adiposo; no promete adelgazamiento por masaje.",
+        "optionExplanations": [
+          "Es una generalización que la guía corrige.",
+          "El perímetro por sí solo no demuestra ese mecanismo.",
+          "No es un resultado que pueda garantizarse por masaje.",
+          "La guía distingue apariencia y contorno de reducción de tejido adiposo; no promete adelgazamiento por masaje."
+        ],
+        "hint": "Pregúntate qué resultado se ha observado realmente.",
+        "source": "Módulo 1 · p. 46 y aclaración FDA de la guía"
+      },
+      {
+        "id": "m1-seguridad-05",
+        "topicId": "seguridad",
+        "prompt": "Embarazo, lactancia y menstruación aparecen en el listado. ¿Cómo interpretarlo?",
+        "options": [
+          "Como condiciones idénticas a una sospecha de trombosis.",
+          "Como permiso para omitir cualquier valoración.",
+          "Como prohibición definitiva de todo masaje futuro.",
+          "Como motivos para preguntar y adaptar, sin prohibición automática universal."
+        ],
+        "answer": 3,
+        "explanation": "La guía aclara que las situaciones del listado no tienen el mismo riesgo ni una única respuesta.",
+        "optionExplanations": [
+          "No son situaciones equivalentes en naturaleza o riesgo.",
+          "Es necesario preguntar y adaptar según la persona.",
+          "El módulo no justifica esa conclusión universal.",
+          "La guía aclara que las situaciones del listado no tienen el mismo riesgo ni una única respuesta."
+        ],
+        "hint": "Un listado de precauciones no convierte todas sus entradas en contraindicaciones absolutas.",
+        "source": "Módulo 1 · p. 52 y aclaración de la guía"
+      },
+      {
+        "id": "m1-cabina-05",
+        "topicId": "cabina",
+        "prompt": "¿Qué combinación describe una cabina funcional y segura?",
+        "options": [
+          "Pasillos estrechos y material usado en el suelo.",
+          "Piso resbaloso con iluminación insuficiente para valorar piel.",
+          "Decoración abundante sin acceso al lavado de manos.",
+          "Circulación despejada, piso antideslizante y superficies fáciles de limpiar."
+        ],
+        "answer": 3,
+        "explanation": "Son características que favorecen trabajo seguro e higiene, junto con ventilación, privacidad y mobiliario adecuado.",
+        "optionExplanations": [
+          "Dificultan circular y aumentan riesgos.",
+          "Contradice seguridad y valoración adecuada.",
+          "La decoración no sustituye el acceso cercano a higiene de manos.",
+          "Son características que favorecen trabajo seguro e higiene, junto con ventilación, privacidad y mobiliario adecuado."
+        ],
+        "hint": "Prioriza características prácticas del espacio.",
+        "source": "Módulo 1 · p. 58"
+      },
+      {
+        "id": "m1-mecanica-06",
+        "topicId": "mecanica",
+        "prompt": "¿Qué secuencia respeta el uso del peso corporal?",
+        "options": [
+          "Alinear, acercarse, transferir y regresar suavemente.",
+          "Alejarse, extender los brazos y empujar de golpe.",
+          "Bloquear rodillas, tensar hombros y presionar.",
+          "Presionar primero y corregir la postura al terminar."
+        ],
+        "answer": 0,
+        "explanation": "La alineación y la cercanía preceden una transferencia gradual; el regreso se realiza sin brusquedad.",
+        "optionExplanations": [
+          "La alineación y la cercanía preceden una transferencia gradual; el regreso se realiza sin brusquedad.",
+          "Alejarse y empujar bruscamente contradice cercanía y gradualidad.",
+          "Bloquear y tensar sustituye una base adaptable por rigidez.",
+          "La postura debe prepararse antes y mantenerse durante la maniobra."
+        ],
+        "hint": "La progresión y el regreso importan tanto como el contacto.",
+        "source": "Módulo 1 · p. 21"
+      },
+      {
+        "id": "m1-posturas-06",
+        "topicId": "posturas",
+        "prompt": "¿Qué caracteriza la postura oscilante?",
+        "options": [
+          "Balanceo rítmico adelante y atrás con contacto continuo.",
+          "Permanecer inmóvil con todo el peso en las manos.",
+          "Separar las manos del cliente en cada transferencia.",
+          "Transferir peso únicamente de derecha a izquierda."
+        ],
+        "answer": 0,
+        "explanation": "El movimiento nace desde las piernas y las manos conservan contacto para mantener continuidad y fluidez.",
+        "optionExplanations": [
+          "El movimiento nace desde las piernas y las manos conservan contacto para mantener continuidad y fluidez.",
+          "La postura implica transferencia rítmica, no inmovilidad.",
+          "El módulo destaca mantener contacto continuo.",
+          "Ese patrón corresponde más a la descripción de T’ai Chi."
+        ],
+        "hint": "El nombre sugiere una alternancia repetida.",
+        "source": "Módulo 1 · pp. 15–16"
+      },
+      {
+        "id": "m1-preparacion-06",
+        "topicId": "preparacion",
+        "prompt": "¿Para qué se emplean cojines, almohadas o rodillos?",
+        "options": [
+          "Para adaptar el apoyo y conservar comodidad y alineación.",
+          "Para impedir que el cliente cambie de opinión.",
+          "Para sustituir la valoración previa de la piel.",
+          "Para mantener una misma posición en cualquier cliente."
+        ],
+        "answer": 0,
+        "explanation": "El módulo propone estos apoyos para cuidar la posición, especialmente cuello y columna.",
+        "optionExplanations": [
+          "El módulo propone estos apoyos para cuidar la posición, especialmente cuello y columna.",
+          "Los apoyos no restringen el consentimiento ni la comunicación.",
+          "Comodidad postural y valoración de la piel cumplen funciones distintas.",
+          "Los apoyos permiten adaptar, no imponer una posición idéntica."
+        ],
+        "hint": "El accesorio debe servir a la postura de la persona.",
+        "source": "Módulo 1 · p. 54"
+      },
+      {
+        "id": "m1-historia-06",
+        "topicId": "historia",
+        "prompt": "¿Qué distingue las aportaciones de Ling y Mezger?",
+        "options": [
+          "Ling: gimnasia sueca; Mezger: organización de maniobras con nombres franceses.",
+          "Ling: reflexología; Mezger: creación del Ayurveda.",
+          "Ling: nombres franceses; Mezger: creador del Anma.",
+          "Ling: único inventor de todas las maniobras; Mezger: hidromasaje."
+        ],
+        "answer": 0,
+        "explanation": "El módulo separa la influencia del sistema de gimnasia de Ling de la difusión terminológica de Mezger.",
+        "optionExplanations": [
+          "El módulo separa la influencia del sistema de gimnasia de Ling de la difusión terminológica de Mezger.",
+          "Ninguna de esas aportaciones es la que el texto les atribuye.",
+          "Invierte la primera asociación y atribuye incorrectamente la segunda.",
+          "El módulo aclara que Ling no inventó exactamente todas las maniobras."
+        ],
+        "hint": "Uno se asocia a movimiento y gimnasia; el otro a la terminología.",
+        "source": "Módulo 1 · pp. 35–36"
+      },
+      {
+        "id": "m1-tipos-06",
+        "topicId": "tipos",
+        "prompt": "¿Cómo debes explicar la reflexología?",
+        "options": [
+          "Como una práctica tradicional cuya acción sobre órganos no está demostrada.",
+          "Como una forma comprobada de curar órganos desde los pies.",
+          "Como una técnica que exige ultrasonido.",
+          "Como el nombre francés de una percusión."
+        ],
+        "answer": 0,
+        "explanation": "El NCCIH señala que las correspondencias con otras partes del cuerpo no prueban la curación de esos órganos.",
+        "optionExplanations": [
+          "El NCCIH señala que las correspondencias con otras partes del cuerpo no prueban la curación de esos órganos.",
+          "Esa eficacia no está demostrada; no debe prometerse.",
+          "La descripción se basa en presión sobre manos o pies, no ultrasonido.",
+          "El término francés para percusión es tapotement."
+        ],
+        "hint": "Distingue una creencia tradicional de un efecto demostrado.",
+        "source": "Módulo 1 · p. 41 y aclaración NCCIH de la guía"
+      },
+      {
+        "id": "m1-efectos-06",
+        "topicId": "efectos",
+        "prompt": "¿Cómo interpretar la palabra “anestesia” empleada por el PDF?",
+        "options": [
+          "No como garantía de bloqueo nervioso o pérdida de sensibilidad.",
+          "Como objetivo de dejar la piel sin sensibilidad.",
+          "Como prueba de que toda presión dolorosa es útil.",
+          "Como permiso para ignorar molestias del cliente."
+        ],
+        "answer": 0,
+        "explanation": "La guía matiza ese término: sensación de bienestar o alivio no equivale a anestesia.",
+        "optionExplanations": [
+          "La guía matiza ese término: sensación de bienestar o alivio no equivale a anestesia.",
+          "La pérdida de sensibilidad no debe buscarse como objetivo del masaje.",
+          "El dolor no confirma un beneficio ni una anestesia adecuada.",
+          "La comunicación y adaptación siguen siendo necesarias."
+        ],
+        "hint": "Distingue relajación de ausencia de sensibilidad.",
+        "source": "Módulo 1 · p. 47 y aclaración de la guía"
+      },
+      {
+        "id": "m1-seguridad-06",
+        "topicId": "seguridad",
+        "prompt": "¿Qué debe acordarse antes de comenzar?",
+        "options": [
+          "Zonas, límites de contacto e intensidad de presión.",
+          "Solo el tipo de música, sin hablar del contacto.",
+          "Solo la duración, suponiendo autorización para todo el cuerpo.",
+          "Solo la marca del producto, sin consultar la presión."
+        ],
+        "answer": 0,
+        "explanation": "El consentimiento incluye explicar el masaje, las zonas, preferencias y presión, con posibilidad de detenerse.",
+        "optionExplanations": [
+          "El consentimiento incluye explicar el masaje, las zonas, preferencias y presión, con posibilidad de detenerse.",
+          "La música no sustituye el acuerdo sobre el procedimiento.",
+          "Aceptar una duración no autoriza todas las zonas.",
+          "El producto no reemplaza los acuerdos sobre intensidad y contacto."
+        ],
+        "hint": "La persona necesita saber y decidir qué se realizará.",
+        "source": "Módulo 1 · p. 53"
+      },
+      {
+        "id": "m1-cabina-06",
+        "topicId": "cabina",
+        "prompt": "¿Qué temperatura ambiental propone el módulo como referencia?",
+        "options": [
+          "Aproximadamente 22–24 °C, ajustada al confort.",
+          "Aproximadamente 2–3 °C.",
+          "Aproximadamente 10–12 °C para todos.",
+          "Aproximadamente 35–40 °C sin ventilación."
+        ],
+        "answer": 0,
+        "explanation": "Se propone ese intervalo para la cabina, evitando además aire directo sobre el cliente.",
+        "optionExplanations": [
+          "Se propone ese intervalo para la cabina, evitando además aire directo sobre el cliente.",
+          "Esa cifra aparece como aumento de temperatura cutánea, no temperatura de cabina.",
+          "No es la referencia del módulo y no refleja confort individual.",
+          "No coincide con la referencia ni con la ventilación recomendada."
+        ],
+        "hint": "Es una referencia ambiental de confort, no un efecto sobre la piel.",
+        "source": "Módulo 1 · p. 60"
+      },
+      {
+        "id": "m1-mecanica-07",
+        "topicId": "mecanica",
+        "prompt": "Aneth debe elevar los hombros para trabajar. ¿Qué ajuste conviene revisar?",
+        "options": [
+          "Si debe aplicar la presión solo con las manos.",
+          "Si la camilla está demasiado alta.",
+          "Si la camilla está demasiado baja.",
+          "Si necesita cerrar más la base de apoyo."
+        ],
+        "answer": 1,
+        "explanation": "Según el módulo, una altura excesiva puede elevar hombros y sobrecargar brazos y muñecas.",
+        "optionExplanations": [
+          "Cambiar a fuerza manual no resuelve el problema de altura.",
+          "Según el módulo, una altura excesiva puede elevar hombros y sobrecargar brazos y muñecas.",
+          "La camilla muy baja se relaciona más con flexión excesiva de espalda.",
+          "Cerrar la base no corrige la necesidad de levantar los hombros."
+        ],
+        "hint": "Relaciona el síntoma postural con la altura del apoyo.",
+        "source": "Módulo 1 · p. 22"
+      },
+      {
+        "id": "m1-posturas-07",
+        "topicId": "posturas",
+        "prompt": "¿Qué medida corresponde a la postura semiarrodillada?",
+        "options": [
+          "Elegirla aunque la profesional tenga lesión de rodilla.",
+          "Acolchar la rodilla y alternar la pierna de apoyo.",
+          "Mantener la misma rodilla apoyada toda la sesión.",
+          "Redondear la espalda para acercarse a los pies."
+        ],
+        "answer": 1,
+        "explanation": "El módulo recomienda proteger la rodilla, cambiar el apoyo y evitar mantener demasiado tiempo la posición.",
+        "optionExplanations": [
+          "El material recomienda evitarla ante lesiones de rodilla.",
+          "El módulo recomienda proteger la rodilla, cambiar el apoyo y evitar mantener demasiado tiempo la posición.",
+          "Se aconseja cambiar el apoyo y no prolongar la posición.",
+          "El tronco se mantiene erguido para evitar flexión excesiva."
+        ],
+        "hint": "Considera el punto que soporta peso sobre la superficie.",
+        "source": "Módulo 1 · pp. 17–18"
+      },
+      {
+        "id": "m1-preparacion-07",
+        "topicId": "preparacion",
+        "prompt": "Tras una comida abundante, ¿qué recomienda el módulo antes del masaje abdominal?",
+        "options": [
+          "Ignorar la comida si la camilla está alta.",
+          "Esperar aproximadamente una a dos horas y valorar comodidad.",
+          "Aplicar presión intensa inmediatamente.",
+          "Prohibir cualquier masaje durante una semana."
+        ],
+        "answer": 1,
+        "explanation": "El material propone esa espera para reducir náusea, reflujo y pesadez; no lo considera contraindicación absoluta.",
+        "optionExplanations": [
+          "La altura no elimina la posible incomodidad digestiva.",
+          "El material propone esa espera para reducir náusea, reflujo y pesadez; no lo considera contraindicación absoluta.",
+          "Puede aumentar las molestias que el módulo busca evitar.",
+          "El módulo no establece esa prohibición ni ese plazo."
+        ],
+        "hint": "La recomendación busca comodidad digestiva.",
+        "source": "Módulo 1 · p. 54"
+      },
+      {
+        "id": "m1-historia-07",
+        "topicId": "historia",
+        "prompt": "¿Qué equivalencias son correctas?",
+        "options": [
+          "Tapotement: fricción; effleurage: amasamiento.",
+          "Effleurage: deslizamiento; pétrissage: amasamiento.",
+          "Effleurage: percusión; pétrissage: vibración.",
+          "Friction: amasamiento; tapotement: deslizamiento."
+        ],
+        "answer": 1,
+        "explanation": "Mezger se relaciona con estos términos franceses; friction es fricción y tapotement es percusión.",
+        "optionExplanations": [
+          "Tapotement es percusión; effleurage es deslizamiento.",
+          "Mezger se relaciona con estos términos franceses; friction es fricción y tapotement es percusión.",
+          "Effleurage significa deslizamiento y pétrissage, amasamiento.",
+          "Friction es fricción y tapotement es percusión."
+        ],
+        "hint": "Distingue deslizar, amasar, friccionar y percutir.",
+        "source": "Módulo 1 · p. 36"
+      },
+      {
+        "id": "m1-tipos-07",
+        "topicId": "tipos",
+        "prompt": "¿Cómo se presentan los meridianos en el masaje oriental del módulo?",
+        "options": [
+          "Como sinónimo de articulaciones sinoviales.",
+          "Como parte de un marco tradicional de energía.",
+          "Como equivalentes exactos de arterias y venas.",
+          "Como parámetros de potencia del ultrasonido."
+        ],
+        "answer": 1,
+        "explanation": "El texto describe ese modelo tradicional; mencionarlo no demuestra por sí mismo mecanismos o resultados clínicos.",
+        "optionExplanations": [
+          "No equivalen a esa estructura anatómica.",
+          "El texto describe ese modelo tradicional; mencionarlo no demuestra por sí mismo mecanismos o resultados clínicos.",
+          "La guía no equipara los meridianos tradicionales con vasos anatómicos.",
+          "No son parámetros de equipos."
+        ],
+        "hint": "Reconoce el contexto cultural de la explicación.",
+        "source": "Módulo 1 · p. 41 y aclaración de la guía"
+      },
+      {
+        "id": "m1-efectos-07",
+        "topicId": "efectos",
+        "prompt": "¿Qué afirmación del módulo se señala como pendiente de respaldo específico?",
+        "options": [
+          "Que T’ai Chi incluye desplazamiento lateral.",
+          "El aumento del filtrado renal y de la orina por masaje.",
+          "Que supino significa estar boca arriba.",
+          "Que se deben utilizar textiles limpios."
+        ],
+        "answer": 1,
+        "explanation": "El PDF lo afirma sin aportar una fuente específica; la guía no lo presenta como beneficio demostrado ni objetivo del servicio.",
+        "optionExplanations": [
+          "Es una descripción postural, no una afirmación de función renal.",
+          "El PDF lo afirma sin aportar una fuente específica; la guía no lo presenta como beneficio demostrado ni objetivo del servicio.",
+          "Es una definición de posición, no la afirmación excretora discutida.",
+          "Es una medida de higiene, no un efecto renal."
+        ],
+        "hint": "Revisa el apartado excretor y la distinción entre afirmar y demostrar.",
+        "source": "Módulo 1 · p. 48 y aclaración de la guía"
+      },
+      {
+        "id": "m1-seguridad-07",
+        "topicId": "seguridad",
+        "prompt": "La clienta pide detener el masaje después de autorizarlo. ¿Qué haces?",
+        "options": [
+          "Cambiar de zona sin preguntarle.",
+          "Detener el procedimiento y respetar su decisión.",
+          "Continuar porque ya había aceptado.",
+          "Terminar primero todas las maniobras programadas."
+        ],
+        "answer": 1,
+        "explanation": "La persona puede retirar su consentimiento en cualquier momento; la autorización inicial no es irrevocable.",
+        "optionExplanations": [
+          "Eso no respeta la petición ni obtiene autorización para el nuevo contacto.",
+          "La persona puede retirar su consentimiento en cualquier momento; la autorización inicial no es irrevocable.",
+          "El consentimiento inicial no elimina su derecho a detenerse.",
+          "El plan no tiene prioridad sobre la petición de detenerse."
+        ],
+        "hint": "Consentimiento es un proceso que continúa durante la sesión.",
+        "source": "Módulo 1 · p. 53"
+      },
+      {
+        "id": "m1-cabina-07",
+        "topicId": "cabina",
+        "prompt": "Antes de usar aromas, ¿qué conviene preguntar?",
+        "options": [
+          "Nada, porque cualquier aroma es siempre inocuo.",
+          "Si hay alergias, asma o migraña.",
+          "Solo cuál es el perfume más caro.",
+          "Solo si quiere una luz más tenue."
+        ],
+        "answer": 1,
+        "explanation": "El módulo recomienda consultarlo y usar aromas moderados; también evita velas encendidas y ozono como aromatizante.",
+        "optionExplanations": [
+          "El módulo indica preguntar por condiciones que pueden afectar la tolerancia.",
+          "El módulo recomienda consultarlo y usar aromas moderados; también evita velas encendidas y ozono como aromatizante.",
+          "El costo no informa sobre sensibilidad o tolerancia.",
+          "La iluminación no responde a posibles reacciones a los aromas."
+        ],
+        "hint": "Un ambiente agradable debe adaptarse a sensibilidades.",
+        "source": "Módulo 1 · p. 60"
+      },
+      {
+        "id": "m1-mecanica-08",
+        "topicId": "mecanica",
+        "prompt": "¿Cómo usar la altura de muñeca o nudillos como referencia de camilla?",
+        "options": [
+          "Como razón para trabajar siempre lo más bajo posible.",
+          "Como señal de que no hace falta revisar los hombros.",
+          "Como punto inicial que se adapta a la técnica.",
+          "Como medida fija para toda persona y maniobra."
+        ],
+        "answer": 2,
+        "explanation": "El módulo ofrece una referencia aproximada, no una altura obligatoria idéntica para todas las técnicas y profesionales.",
+        "optionExplanations": [
+          "Una camilla demasiado baja aumenta la flexión de la espalda.",
+          "La referencia no sustituye comprobar la postura durante el trabajo.",
+          "El módulo ofrece una referencia aproximada, no una altura obligatoria idéntica para todas las técnicas y profesionales.",
+          "El propio módulo indica ajustar según la técnica."
+        ],
+        "hint": "Una referencia orienta; observa también la postura real.",
+        "source": "Módulo 1 · p. 22"
+      },
+      {
+        "id": "m1-posturas-08",
+        "topicId": "posturas",
+        "prompt": "¿Cómo clasifica el módulo el apoyo del antebrazo?",
+        "options": [
+          "Como postura independiente sin transferencia de peso.",
+          "Como técnica exclusiva para las manos del cliente.",
+          "Como adaptación de otras posturas.",
+          "Como posición obligatoria exclusivamente sentada."
+        ],
+        "answer": 2,
+        "explanation": "Puede añadirse a ataque, oscilante o lateral; el módulo aclara que no es una postura independiente.",
+        "optionExplanations": [
+          "Es una adaptación y la presión procede del desplazamiento corporal.",
+          "Se propone para grandes masas musculares, como espalda, glúteos y muslos.",
+          "Puede añadirse a ataque, oscilante o lateral; el módulo aclara que no es una postura independiente.",
+          "No está limitada a sentarse; se combina con otras posturas."
+        ],
+        "hint": "Una superficie de contacto puede combinarse con varias bases de apoyo.",
+        "source": "Módulo 1 · pp. 19–20"
+      },
+      {
+        "id": "m1-preparacion-08",
+        "topicId": "preparacion",
+        "prompt": "Durante el masaje, ¿qué zonas deben permanecer cubiertas?",
+        "options": [
+          "Ninguna, para facilitar cualquier maniobra.",
+          "La zona de trabajo, dejando descubiertas las demás.",
+          "Las zonas que no se están trabajando.",
+          "Únicamente los pies durante toda la sesión."
+        ],
+        "answer": 2,
+        "explanation": "La cobertura conserva privacidad y comodidad; se expone solo el área necesaria.",
+        "optionExplanations": [
+          "Descubrir todo el cuerpo no respeta el criterio de mínima exposición.",
+          "Invierte el principio de cubrir las áreas que no se trabajan.",
+          "La cobertura conserva privacidad y comodidad; se expone solo el área necesaria.",
+          "El principio se aplica a las zonas no trabajadas, no solo a los pies."
+        ],
+        "hint": "La cobertura cambia conforme cambia el área autorizada de trabajo.",
+        "source": "Módulo 1 · p. 54"
+      },
+      {
+        "id": "m1-historia-08",
+        "topicId": "historia",
+        "prompt": "¿Qué afirmación resume la evolución descrita?",
+        "options": [
+          "En la actualidad basta con tener manos fuertes.",
+          "Todas las variantes modernas tienen objetivos e intensidades idénticos.",
+          "El masaje es una familia de métodos que requiere formación y adaptación.",
+          "En la Edad Media desapareció de todas las culturas."
+        ],
+        "answer": 2,
+        "explanation": "El módulo explica su desarrollo en diversas culturas y áreas, y exige conocimientos, consentimiento y límites profesionales.",
+        "optionExplanations": [
+          "El material señala anatomía, higiene, valoración, consentimiento y otros conocimientos.",
+          "El módulo presenta objetivos, intensidades y fundamentos diferentes.",
+          "El módulo explica su desarrollo en diversas culturas y áreas, y exige conocimientos, consentimiento y límites profesionales.",
+          "El texto indica conservación y desarrollo en regiones asiáticas y árabes."
+        ],
+        "hint": "Evita pensar que toda la historia lleva a una única técnica universal.",
+        "source": "Módulo 1 · pp. 34 y 37–38"
+      },
+      {
+        "id": "m1-tipos-08",
+        "topicId": "tipos",
+        "prompt": "¿Qué falta para utilizar un aparato con seguridad aunque conozcas su nombre?",
+        "options": [
+          "Solo repetir la presión de un masaje manual.",
+          "Solo comprobar que pertenece al masaje no manual.",
+          "Formación, indicaciones y parámetros específicos del dispositivo.",
+          "Solo elegir el aroma de la cabina."
+        ],
+        "answer": 2,
+        "explanation": "El listado del módulo es introductorio y no proporciona un protocolo seguro para todos los equipos.",
+        "optionExplanations": [
+          "Los mecanismos de los equipos pueden ser distintos y no se transfieren así.",
+          "Conocer la categoría no establece indicaciones ni configuración.",
+          "El listado del módulo es introductorio y no proporciona un protocolo seguro para todos los equipos.",
+          "El aroma no sustituye formación ni parámetros del equipo."
+        ],
+        "hint": "Una clasificación no equivale a instrucciones de uso.",
+        "source": "Módulo 1 · pp. 40–41"
+      },
+      {
+        "id": "m1-efectos-08",
+        "topicId": "efectos",
+        "prompt": "¿Qué criterio general conviene usar al explicar beneficios?",
+        "options": [
+          "Considerar que más presión asegura más beneficio.",
+          "Sustituir la valoración médica si la persona se relaja.",
+          "Distinguir efectos posibles, límites y variación entre personas.",
+          "Prometer todos los efectos a cualquier persona."
+        ],
+        "answer": 2,
+        "explanation": "La guía evita convertir descripciones del módulo en resultados universales o autorización para tratar enfermedades.",
+        "optionExplanations": [
+          "La intensidad no garantiza un resultado mejor.",
+          "Sentirse mejor no sustituye investigar un problema de salud.",
+          "La guía evita convertir descripciones del módulo en resultados universales o autorización para tratar enfermedades.",
+          "Ignora técnica, situación individual y límites de la evidencia."
+        ],
+        "hint": "Una explicación profesional debe reflejar la incertidumbre real.",
+        "source": "Módulo 1 · pp. 45–48 y aclaraciones de la guía"
+      },
+      {
+        "id": "m1-seguridad-08",
+        "topicId": "seguridad",
+        "prompt": "La presión acordada empieza a producir dolor importante. ¿Cómo respondes?",
+        "options": [
+          "Aumentarla porque el dolor confirma eficacia.",
+          "Dejar de preguntar para no interrumpir la relajación.",
+          "Detener o reducir la maniobra y volver a comprobar comodidad.",
+          "Mantenerla para que el cuerpo se acostumbre."
+        ],
+        "answer": 2,
+        "explanation": "La intensidad se adapta durante la sesión; el dolor importante no es una meta ni debe ignorarse.",
+        "optionExplanations": [
+          "El dolor no demuestra eficacia del masaje.",
+          "La comunicación sigue siendo necesaria cuando aparecen molestias.",
+          "La intensidad se adapta durante la sesión; el dolor importante no es una meta ni debe ignorarse.",
+          "Ignora el dolor comunicado y la necesidad de adaptación."
+        ],
+        "hint": "El acuerdo inicial no sustituye escuchar la respuesta actual.",
+        "source": "Módulo 1 · p. 53 y aclaración de seguridad"
+      },
+      {
+        "id": "m1-cabina-08",
+        "topicId": "cabina",
+        "prompt": "La clienta prefiere conservar su ropa interior. ¿Qué procede?",
+        "options": [
+          "Descubrir más zonas para compensar la ropa.",
+          "Asumir que ya no necesita sábana ni privacidad.",
+          "Respetarlo y adaptar el servicio con cobertura adecuada.",
+          "Obligarla a retirarla porque lo menciona el PDF."
+        ],
+        "answer": 2,
+        "explanation": "La ropa desechable es una opción según servicio y comodidad; no obliga a desvestirse ni sustituye consentimiento.",
+        "optionExplanations": [
+          "Solo debe exponerse lo necesario y autorizado.",
+          "Conservar ropa no elimina la necesidad de privacidad y cobertura.",
+          "La ropa desechable es una opción según servicio y comodidad; no obliga a desvestirse ni sustituye consentimiento.",
+          "La instrucción del material no elimina el derecho a decidir."
+        ],
+        "hint": "Recuerda que la privacidad y los límites personales siguen vigentes.",
+        "source": "Módulo 1 · pp. 61–62 y aclaración de la guía"
+      }
+    ]
+  }
+]

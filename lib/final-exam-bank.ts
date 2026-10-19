@@ -1,0 +1,193 @@
+import type { Choice, ExamQuestion } from './final-exam-types';
+
+const choices = (texts: string[]): Choice[] => texts.map((text, i) => ({ id: String.fromCharCode(97 + i), text }));
+const source: Record<string, string> = {
+  mecanica: 'Guía corporal · Mecánica corporal, pp. 2–4 y 21–22.',
+  posturas: 'Guía corporal · Posiciones de trabajo, pp. 5–20; mecánica, pp. 21–22.',
+  preparacion: 'Guía corporal · Preparación y colocación, pp. 23–24 y 54.',
+  historia: 'Guía corporal · Historia y vocabulario, pp. 25–38; aclaración histórica de la guía.',
+  tipos: 'Guía corporal · Tipos y límites, pp. 39–41; aclaraciones de la guía.',
+  efectos: 'Guía corporal · Efectos, pp. 42–48; aclaraciones de la guía y fuentes FDA/NCCIH enlazadas allí.',
+  seguridad: 'Guía corporal · Valoración y consentimiento, pp. 38 y 49–54; aclaraciones de seguridad.',
+  cabina: 'Guía corporal · Higiene, cosméticos y cabina, pp. 55–63.',
+};
+function base(topicId: string, number: number, prompt: string, explanation: string) {
+  return { id: `final-v1-${topicId}-${number}`, topicId, prompt, explanation, source: source[topicId] };
+}
+function single(topic: string, n: number, prompt: string, options: string[], answer: string, explanation: string): ExamQuestion {
+  return { ...base(topic, n, prompt, explanation), kind: 'single', options: choices(options), solution: answer };
+}
+function multiple(topic: string, n: number, prompt: string, options: string[], answer: string[], explanation: string): ExamQuestion {
+  return { ...base(topic, n, prompt, explanation), kind: 'multiple', options: choices(options), solution: answer };
+}
+function blank(topic: string, n: number, prompt: string, entries: { label: string; word: string; accepted?: string[] }[], explanation: string): ExamQuestion {
+  return { ...base(topic, n, prompt, explanation), kind: 'blank', blanks: entries.map((e, i) => ({ id: String(i), label: e.label })),
+    solution: Object.fromEntries(entries.map((e, i) => [String(i), e.word])), accepted: Object.fromEntries(entries.map((e, i) => [String(i), e.accepted ?? []])) };
+}
+function connect(topic: string, n: number, prompt: string, items: string[], targets: string[], answer: Record<string, string>, explanation: string, kind: 'match' | 'classify' = 'match'): ExamQuestion {
+  return { ...base(topic, n, prompt, explanation), kind, items: choices(items), targets: choices(targets), solution: answer };
+}
+function order(topic: string, n: number, prompt: string, steps: string[], explanation: string): ExamQuestion {
+  return { ...base(topic, n, prompt, explanation), kind: 'order', items: choices(steps), solution: choices(steps).map(c => c.id) };
+}
+function open(topic: string, n: number, prompt: string, model: string, criteria: string[], explanation: string): ExamQuestion {
+  return { ...base(topic, n, prompt, explanation), kind: 'open', solution: model, rubric: choices(criteria) };
+}
+
+// A separate, authored assessment bank. No question is drawn from the topic quizzes.
+export const finalExamBank: ExamQuestion[] = [
+  single('mecanica', 1,
+    'Al cambiar de un deslizamiento largo a un trabajo preciso de manos, Aneth conserva la misma altura de camilla. Para llegar, se aleja y adelanta la cabeza. ¿Qué revisión resuelve mejor el conjunto del problema?',
+    ['Bajar siempre la camilla hasta la misma altura, aunque cambie la técnica.', 'Revisar distancia, altura y apoyos para esa maniobra, y comprobar alineación y hombros relajados.', 'Mantener la distancia y compensar con más flexión de cuello.', 'Conservar el equipo y aumentar la fuerza de dedos para terminar antes.'], 'b',
+    'La altura de referencia no es una receta fija. La combinación de distancia, superficie y técnica debe permitir una mecánica cómoda; compensar con cuello o dedos mantiene la carga.'),
+  blank('mecanica', 2,
+    'Completa el análisis de una estación de trabajo: «Mover la camilla para dejar espacio adapta el entorno: es una decisión de [1]. Mantener el [2] corporal dentro de una base estable ayuda a controlar el desplazamiento. El ajuste busca reducir la [3], no solo terminar más rápido».',
+    [{ label: '[1] Disciplina que adapta el entorno', word: 'ergonomía' }, { label: '[2] Lo que se controla con una base estable', word: 'equilibrio' }, { label: '[3] Cansancio que se busca disminuir', word: 'fatiga', accepted: ['fatiga muscular', 'fatiga física', 'cansancio'] }],
+    'El análisis une entorno, control del movimiento y carga acumulada. No basta con nombrar una postura si el puesto obliga a mantener esfuerzos innecesarios.'),
+  connect('mecanica', 3,
+    'En una revisión de trabajo, clasifica cada intervención según lo que modifica de forma directa.',
+    ['Reubicar el carro para poder acercarse a la zona sin alcanzar por encima.', 'Desplazar el peso con las piernas en lugar de tensar los hombros.', 'Cambiar la altura del apoyo donde se realiza la maniobra.', 'Volver suavemente a la posición inicial sin un tirón de brazos.'],
+    ['Condiciones del puesto (ergonomía)', 'Uso del cuerpo (mecánica corporal)'], { a: 'a', b: 'b', c: 'a', d: 'b' },
+    'Reubicar mobiliario y ajustar superficies cambia el puesto. Transferir peso y controlar el regreso cambia la ejecución. Las dos estrategias se complementan.', 'classify'),
+  open('mecanica', 4,
+    'Después de varias sesiones, Aneth nota cansancio en pulgares y espalda. Trabaja lejos de la camilla y mantiene la presión solo con los brazos. Propón un plan de cuatro cambios y explica cómo cada uno reduce la carga. No diagnostiques una lesión.',
+    'Acercaría el cuerpo a la zona y revisaría la altura de la camilla según la maniobra para evitar alcances y flexión excesiva. Mantendría columna neutra y hombros relajados. Distribuiría el peso en una base estable, usando piernas y desplazamiento para generar presión progresiva. Alternaría apoyos o posturas y revisaría la ejecución durante la sesión, sin concentrar todo el esfuerzo en pulgares y brazos.',
+    ['Relacioné distancia o altura con el alcance y la carga de espalda.', 'Incluí alineación del tronco y hombros relajados.', 'Expliqué cómo piernas y transferencia de peso descargan brazos o dedos.', 'Propuse alternar apoyos o revisar la ejecución, sin presentar un diagnóstico.'],
+    'Una respuesta completa modifica tanto el puesto como el movimiento. Decir solo «hacer más fuerza» o «aguantar» no resuelve la causa descrita.'),
+
+  connect('posturas', 1,
+    'Conecta cada fallo observado con su corrección específica. Usa cada corrección una vez.',
+    ['En la inclinada, el tronco se redondea mientras la pelvis queda atrás.', 'En T’ai Chi, los pies están inmóviles y todo el recorrido sale de los brazos.', 'En la oscilante, las manos pierden contacto en cada cambio de sentido.', 'En la semiarrodillada, una rodilla soporta toda la sesión sobre el suelo duro.'],
+    ['Mantener continuidad de contacto y acompañar el balanceo desde las piernas.', 'Acolchar, alternar el apoyo y evitar prolongarlo.', 'Recuperar la línea cabeza-columna-pelvis e inclinar desde tobillos.', 'Acompañar el recorrido con transferencia lateral de peso.'],
+    { a: 'c', b: 'd', c: 'a', d: 'b' },
+    'La corrección depende del mecanismo de cada postura. El nombre no garantiza una ejecución adecuada: importan alineación, dirección del peso, continuidad y tolerancia del apoyo.'),
+  order('posturas', 2,
+    'Aneth va a cambiar de postura durante una maniobra. Ordena esta transición por sus dependencias: primero libera la carga, luego reorganiza el apoyo y al final recupera la presión.',
+    ['Reducir gradualmente la presión que aplica en ese momento.', 'Recolocar los pies y establecer una base estable para el nuevo recorrido.', 'Comprobar alineación y comodidad del nuevo contacto sin cargarlo todavía.', 'Transferir de nuevo el peso y recuperar la presión de manera progresiva.'],
+    'Reorganizar los apoyos bajo presión sostenida favorece compensaciones. La secuencia propuesta descarga, estabiliza, comprueba y después vuelve a cargar; no exige movimientos bruscos.'),
+  multiple('posturas', 3,
+    'Una camilla es baja y estrecha. Aneth tiene una molestia previa de rodilla y necesita trabajar con precisión cerca del borde. ¿Qué decisiones deben formar parte de su elección? Selecciona todas las adecuadas.',
+    ['Descartar la semiarrodillada si compromete la rodilla lesionada.', 'Asumir que sentarse parcialmente al borde siempre será estable.', 'Verificar estabilidad antes de considerar cualquier apoyo sobre la camilla.', 'Ajustar altura y colocación antes de compensar encorvando la espalda.', 'Elegir una postura solo por el nombre de la maniobra, sin comprobar comodidad.'], ['a', 'c', 'd'],
+    'La postura se elige considerando tarea, equipo y condiciones de la profesional. Una camilla estrecha exige revisar estabilidad; una rodilla lesionada no se resuelve forzando el apoyo.'),
+  open('posturas', 4,
+    'Diseña la transición entre un trabajo lateral amplio y un deslizamiento longitudinal. Elige una postura apropiada para cada fase, explica cómo cambia la dirección del peso y añade una precaución durante el cambio.',
+    'Para el trabajo lateral usaría T’ai Chi, transfiriendo peso entre ambos lados. Para el deslizamiento longitudinal usaría ataque de esgrima, con un pie delante y peso de atrás hacia adelante. Reduciría la presión para recolocar apoyos, mantendría alineación y retomaría contacto y presión de forma gradual, sin tirar solo de brazos.',
+    ['Relacioné T’ai Chi con el trabajo lateral o justifiqué una alternativa coherente.', 'Relacioné ataque de esgrima con el recorrido longitudinal o justifiqué una alternativa coherente.', 'Expliqué el cambio de dirección de la transferencia de peso.', 'Incluí una transición estable, gradual y sin compensaciones de brazos o tronco.'],
+    'Se evalúa el razonamiento que une dirección del movimiento y apoyos. Una alternativa bien explicada debe conservar estabilidad, alineación y comodidad.'),
+
+  single('preparacion', 1,
+    'Una clienta está boca abajo, con el cuello incómodo, y dice que termina de comer y se siente pesada. La sesión prevista incluye abdomen. ¿Qué plan integra mejor ambos datos?',
+    ['Conservar la posición y pasar primero a maniobras abdominales intensas.', 'Resolver solo el cuello; la pesadez no modifica la sesión.', 'Revisar apoyos y posición, preguntar por su comodidad y posponer el trabajo abdominal según lo valorado.', 'Cancelar cualquier masaje para siempre porque una comida es una contraindicación absoluta.'], 'c',
+    'La comodidad cervical y la pesadez requieren revisión. La recomendación tras una comida abundante es contextual, especialmente para abdomen; no autoriza forzar una posición ni crear una prohibición permanente.'),
+  order('preparacion', 2,
+    'Ordena estas etapas de colocación inicial. En este caso, la posición se explica antes de que la clienta se cambie y la presión solo se inicia cuando ya está cómoda.',
+    ['Explicar la posición, acordar las zonas autorizadas y cómo se cubrirá el cuerpo.', 'Ofrecer privacidad para que la clienta se cambie y se coloque según lo acordado.', 'Ajustar apoyos y cobertura, y comprobar comodidad y alineación.', 'Confirmar la presión acordada e iniciar de forma gradual.'],
+    'Las dependencias del caso son explicación y acuerdo, privacidad, comprobación de apoyos y comienzo. Colocar primero sin explicar omite participación y consentimiento.'),
+  blank('preparacion', 3,
+    'Completa esta nota de preparación: «La clienta inicia con el rostro hacia el techo, en decúbito [1]. Antes del cambio a boca abajo, reviso la alineación del [2] para no mantener una rotación forzada. Descubro el área acordada y conservo la [3] de las demás zonas».',
+    [{ label: '[1] Posición inicial', word: 'supino' }, { label: '[2] Región cuya rotación se revisa', word: 'cuello', accepted: ['región cervical', 'columna cervical'] }, { label: '[3] Protección de las zonas no trabajadas', word: 'cobertura', accepted: ['cubierta'] }],
+    'El caso vincula posición, apoyo cervical y cobertura. Saber el nombre del decúbito no sustituye comprobar que la persona esté cómoda.'),
+  open('preparacion', 4,
+    'Antes de una sesión, Aneth solo hace círculos de muñecas. La clienta ya está colocada, pero no se han revisado sus apoyos ni explicado la cobertura. Redacta un plan breve que complete la preparación de ambas.',
+    'Aneth completaría una preparación suave con respiración, movilidad de varias articulaciones y ensayo de transferencias y posturas. Con la clienta, explicaría zonas y cobertura, pediría su acuerdo y ajustaría cojines o rodillos para comodidad y alineación. Confirmaría cómo se siente antes de empezar y mantendría cubiertas las zonas no trabajadas.',
+    ['Amplié la preparación de Aneth más allá de muñecas, incluyendo respiración o movilidad general.', 'Incluí ensayo de posturas o transferencias de peso.', 'Revisé apoyos, alineación y comodidad de la clienta.', 'Expliqué cobertura y zonas, con acuerdo de la clienta antes de iniciar.'],
+    'Preparación profesional y colocación del cliente forman un proceso conjunto. Hacer una rutina propia no reemplaza la comunicación con quien recibe el servicio.'),
+
+  connect('historia', 1,
+    'Estás corrigiendo fichas para una exposición. Conecta cada interpretación errónea con el matiz que necesita, sin recurrir a fechas exactas.',
+    ['«Una fecha muy antigua del PDF demuestra por sí sola el origen exacto de una técnica».', '«En la Edad Media se perdió el masaje en todas las culturas».', '«Ling inventó por sí solo todas las maniobras del masaje clásico».', '«La formación actual se limita a memorizar nombres de maniobras».'],
+    ['Distinguir influencia de la gimnasia sueca de la organización de maniobras por Mezger.', 'Incluir valoración, higiene, consentimiento, mecánica y límites profesionales.', 'Contrastar la cronología sin bibliografía antes de tratarla como un dato firme.', 'Reconocer la conservación y desarrollo de saberes en otras culturas.'],
+    { a: 'c', b: 'd', c: 'a', d: 'b' },
+    'Interpretar la historia exige distinguir evidencia, continuidad cultural y contribuciones diferentes. La guía evita exigir fechas no respaldadas por bibliografía.'),
+  order('historia', 2,
+    'Ordena estos grandes momentos de la narración histórica del módulo, del más antiguo al más reciente. No se piden fechas exactas.',
+    ['Prácticas de cuidado y ejercicio descritas en la Grecia y Roma antiguas.', 'Edad Media: menor difusión formal europea de algunas prácticas y continuidad en otras culturas.', 'Renacimiento: renovado interés europeo por anatomía y cuerpo.', 'Siglo XIX: aportaciones de Ling y Mezger.', 'Siglos XX y XXI: diversificación de ámbitos y formación profesional.'],
+    'Se evalúa la relación entre etapas amplias, no una atribución exclusiva del origen del masaje a una sola cultura.'),
+  multiple('historia', 3,
+    'Un guion de clase mezcla tradiciones, vocabulario y evidencia. ¿Qué afirmaciones conservarías sin corregir? Selecciona todas las adecuadas.',
+    ['Una asociación cultural ayuda a ubicar una tradición, pero no demuestra todas sus promesas clínicas.', 'La continuidad en Asia y otras culturas evita describir la Edad Media como desaparición universal.', 'La terminología francesa demuestra que todas las maniobras se originaron exclusivamente en Francia.', 'El vocabulario común facilita estudiar las maniobras, pero no sustituye formación y valoración.', 'Toda fecha del PDF debe darse por confirmada aunque no incluya fuente.'], ['a', 'b', 'd'],
+    'El vocabulario, la historia cultural y la evidencia clínica responden preguntas distintas. El origen de un término no basta para atribuir la invención de todas las prácticas.'),
+  open('historia', 4,
+    'Corrige esta frase de una exposición en cuatro ideas: «El masaje nació en una sola cultura, desapareció por completo en la Edad Media y Ling inventó todas sus maniobras; conocer esa historia basta para practicar».',
+    'El módulo describe aportaciones de distintas culturas. La disminución de difusión formal en parte de Europa no equivale a desaparición mundial. Ling influyó mediante la gimnasia sueca, mientras Mezger contribuyó a organizar y difundir maniobras con nombres franceses. La práctica moderna exige formación técnica, valoración, higiene, consentimiento y límites profesionales, además de historia.',
+    ['Reconocí aportaciones de varias culturas sin inventar un origen único.', 'Corregí la idea de desaparición universal durante la Edad Media.', 'Distinguí las contribuciones de Ling y Mezger.', 'Expliqué por qué conocer la historia no basta para ejercer con preparación.'],
+    'La respuesta debe reconstruir un argumento, no limitarse a cambiar un nombre o memorizar una fecha.'),
+
+  connect('tipos', 1,
+    'Cuatro anuncios describen lo que hace un equipo sin nombrarlo. Conecta cada mecanismo con su técnica.',
+    ['Una cámara se infla y ejerce compresión externa de manera neumática.', 'Un aplicador produce vacío que atrae el tejido hacia él.', 'Un equipo utiliza energía acústica con indicaciones y parámetros propios.', 'La acción proviene de chorros y remolinos de agua.'],
+    ['Ultrasonido', 'Hidromasaje', 'Presoterapia', 'Vacuumterapia'], { a: 'c', b: 'd', c: 'a', d: 'b' },
+    'Identificar el mecanismo permite distinguir tecnologías, pero no habilita para aplicar parámetros que el módulo introductorio no enseña.'),
+  connect('tipos', 2,
+    'Clasifica estas frases de atención al cliente. Separa una descripción de técnica de una promesa o indicación que excede lo enseñado.',
+    ['«Este equipo utiliza compresión neumática; primero debo valorar si el servicio corresponde».', '«Si tienes hinchazón, cualquier masaje profundo sirve como drenaje».', '«La reflexología pertenece a una tradición; no voy a prometer curar un órgano».', '«Conocer el nombre ultrasonido ya me permite escoger parámetros para cualquier persona».'],
+    ['Descripción prudente dentro del alcance', 'Promesa o aplicación no justificada'], { a: 'a', b: 'b', c: 'a', d: 'b' },
+    'Reconocer un mecanismo o una tradición no demuestra eficacia universal. Drenaje y amasamiento profundo no son equivalentes, y cada equipo requiere preparación específica.', 'classify'),
+  single('tipos', 3,
+    'Llega a la cabina un aparato cuyo folleto agrupa vacío y compresión bajo un mismo nombre comercial. Aneth solo ha estudiado la clasificación introductoria. ¿Qué debe resolver antes de ofrecerlo?',
+    ['Elegir el ajuste más intenso porque cubre ambos mecanismos.', 'Identificar el mecanismo real, sus indicaciones e instrucciones y obtener la formación específica necesaria.', 'Tratar el nombre comercial como un protocolo universal.', 'Sustituir todas las preguntas de valoración por una prueba breve del aparato.'], 'b',
+    'El nombre comercial puede mezclar conceptos. Es necesario distinguir el mecanismo y conocer las condiciones del dispositivo; una prueba improvisada no reemplaza formación ni valoración.'),
+  open('tipos', 4,
+    'Una clienta pide «el mismo servicio» con ventosas de vacío, compresión neumática o masaje de manos porque cree que son intercambiables. Explícale las diferencias y qué información necesitarías antes de elegir.',
+    'Las ventosas de vacío trabajan mediante succión, la compresión neumática ejerce presión externa y el masaje manual depende de maniobras de la profesional. No son equivalentes ni comparten automáticamente indicaciones. Preguntaría por objetivo, antecedentes, síntomas y comodidad, y comprobaría mi formación y las instrucciones específicas antes de proponer un servicio apropiado o una derivación.',
+    ['Diferencié succión de compresión neumática.', 'Expliqué qué distingue el trabajo manual.', 'Aclaré que los métodos no son intercambiables para cualquier persona.', 'Incluí valoración y límites de formación o instrucciones antes de decidir.'],
+    'La explicación debe ayudar a decidir con criterio, sin convertir una clasificación básica en un protocolo clínico.'),
+
+  blank('efectos', 1,
+    'Completa este análisis: «La acumulación de líquido en tejidos se llama [1]; no es el mismo concepto que el tejido graso del panículo [2]. Por eso, cambiar una medida de contorno no prueba pérdida de [3]».',
+    [{ label: '[1] Acumulación de líquido', word: 'edema' }, { label: '[2] Nombre de la capa grasa', word: 'adiposo' }, { label: '[3] Lo que una medida aislada no demuestra perder', word: 'grasa', accepted: ['tejido adiposo', 'grasa corporal'] }],
+    'Líquido, apariencia y tejido adiposo no son la misma variable. Una medida aislada no establece qué cambió ni demuestra una reducción de grasa.'),
+  connect('efectos', 2,
+    'Clasifica cada nota según si registra una observación concreta o añade una conclusión que los datos no permiten sostener.',
+    ['«Al terminar, la clienta reporta sentirse más relajada».', '«Como el contorno cambió una vez, se eliminó tejido graso».', '«El masaje garantizará que el riñón filtre más en todas las sesiones».', '«Hoy observé más temperatura superficial; no asumo una respuesta idéntica en otra persona».'],
+    ['Observación delimitada', 'Conclusión no demostrada por el registro'], { a: 'a', b: 'b', c: 'b', d: 'a' },
+    'Un reporte o una observación documenta lo ocurrido sin probar mecanismos ni efectos permanentes. Las promesas universales de eliminación de grasa o filtrado renal exceden estos datos.', 'classify'),
+  multiple('efectos', 3,
+    'Revisa un folleto que promete relajación, anestesia, pérdida de grasa y mayor filtrado renal en la misma sesión. ¿Qué correcciones están justificadas por la guía?',
+    ['Eliminar la equivalencia entre relajación y pérdida de sensibilidad.', 'Convertir los 2–3 °C citados en una garantía para cualquier técnica.', 'Distinguir cambios de apariencia de una pérdida demostrada de tejido adiposo.', 'Retirar la promesa renal sin una fuente específica que la respalde.', 'Sustituir cualquier evaluación de síntomas por una promesa general de bienestar.'], ['a', 'c', 'd'],
+    'La guía conserva el estudio de efectos posibles y matiza afirmaciones categóricas. Ni una cifra del material ni la palabra bienestar permiten prometer resultados clínicos universales.'),
+  open('efectos', 4,
+    'Tras una sesión, una clienta comenta que se siente ligera y una medición de contorno es menor. Escribe cómo registrarías el resultado y qué responderías si pregunta cuánta grasa perdió.',
+    'Registraría por separado su sensación de ligereza y las medidas obtenidas, indicando las condiciones y el momento. Explicaría que esos datos no demuestran pérdida de tejido adiposo ni permiten calcular gramos de grasa. Evitaría prometer permanencia y propondría un seguimiento consistente de los objetivos apropiados, sin sustituir una valoración de síntomas si aparecen.',
+    ['Separé el reporte subjetivo de la medición realizada.', 'Aclaré que la medida no demuestra pérdida de tejido adiposo.', 'Evité cuantificar grasa perdida o garantizar un resultado permanente.', 'Propuse un registro o seguimiento coherente sin atribuir un mecanismo no demostrado.'],
+    'El reto es interpretar un dato sin transformarlo en una conclusión causal. Sentirse mejor es valioso, pero no cuantifica grasa perdida.'),
+
+  order('seguridad', 1,
+    'Durante una maniobra, la clienta dice que le duele y pide una pausa. Ordena la respuesta profesional. El caso solo contempla continuar si ella vuelve a autorizarlo y la valoración lo permite.',
+    ['Detener la maniobra y retirar la presión.', 'Escuchar qué ocurrió y revisar la situación sin intentar diagnosticar.', 'Explicar la adaptación o la necesidad de posponer y acordar qué hacer.', 'Continuar únicamente si corresponde y hay nuevo acuerdo; registrar lo sucedido.'],
+    'El primer paso responde a la petición actual. El consentimiento previo no autoriza ignorar dolor o continuar mientras se negocia el cambio.'),
+  connect('seguridad', 2,
+    'Relaciona cada situación con la prioridad correspondiente. Esta clasificación no sustituye una valoración clínica.',
+    ['La clienta retira su permiso para trabajar una zona en mitad de la sesión.', 'Existe sospecha de trombosis y se propone masajear para «comprobarla».', 'Una clienta menstruando está cómoda y pregunta si todo masaje está prohibido.', 'La clienta pide que Aneth identifique qué enfermedad explica un síntoma.'],
+    ['Evitar el masaje y solicitar valoración médica; no hacer una maniobra de prueba.', 'Respetar el límite de la valoración estética y derivar cuando corresponda.', 'Detener el contacto en esa zona y respetar el consentimiento actual.', 'Preguntar y adaptar de forma individual, sin imponer una prohibición universal.'],
+    { a: 'c', b: 'a', c: 'd', d: 'b' },
+    'Consentimiento, posibles riesgos, circunstancias personales y límites profesionales son problemas distintos; no se resuelven todos bajando la presión.', 'classify'),
+  multiple('seguridad', 3,
+    'Detecta todos los errores de este plan antes de atender: «Una firma permite ampliar zonas; cualquier condición del listado se resuelve con menos presión; revisaré síntomas actuales; si hay hinchazón la diagnosticaré; acordaré intensidad». Selecciona las partes que deben corregirse.',
+    ['Interpretar la firma como autorización para ampliar zonas sin preguntar.', 'Suponer que bajar presión resuelve cualquier riesgo del listado.', 'Revisar síntomas actuales antes del servicio.', 'Prometer diagnosticar la causa de la hinchazón desde la valoración estética.', 'Acordar la intensidad y comprobar comodidad.'], ['a', 'b', 'd'],
+    'Revisar síntomas y acordar intensidad son parte del proceso. Los errores son ampliar consentimiento, equiparar riesgos y asumir funciones diagnósticas.'),
+  open('seguridad', 4,
+    'Una clienta autorizó un servicio general al reservar. Al llegar limita las zonas y, durante una maniobra, pide parar por dolor. La agenda está llena. Explica qué harías en ese momento y qué registrarías después.',
+    'Pararía al recibir la petición, respetando las zonas ahora autorizadas. Escucharía qué siente y valoraría si corresponde adaptar, posponer o derivar dentro de mi preparación, sin diagnosticar ni presionar por la agenda. Solo reanudaría si es apropiado y ella lo acepta. Registraría el cambio de límites, el dolor comunicado, la decisión y las adaptaciones o derivación.',
+    ['Detuve la maniobra y respeté los límites actuales.', 'Expliqué que la reserva o agenda no anula el consentimiento continuo.', 'Planteé valorar adaptación, suspensión o derivación sin diagnosticar y sin reanudar automáticamente.', 'Incluí un registro del incidente, decisiones y acuerdos.'],
+    'El tiempo disponible no cambia la prioridad del consentimiento y la comodidad. El registro debe reflejar lo ocurrido, no solo la autorización inicial.'),
+
+  single('cabina', 1,
+    'Quedan pocos minutos entre clientas. Hay textiles utilizados junto a los limpios, un paso bloqueado y un aroma intenso. ¿Qué criterio prioriza una preparación completa de la cabina?',
+    ['Cambiar solo la música, porque la primera impresión es lo principal.', 'Ocultar los textiles usados bajo una tela y recibir de inmediato.', 'Reorganizar material, atender superficies y textiles, despejar circulación y revisar ventilación y preferencias antes de recibir.', 'Mantener todo igual y reducir la duración para compensar.'], 'c',
+    'La siguiente recepción depende de condiciones de higiene, seguridad y confort. Los detalles ambientales no compensan mezclar material ni bloquear circulación.'),
+  connect('cabina', 2,
+    'Conecta cada hallazgo de una auditoría de cabina con el riesgo o principio que compromete principalmente.',
+    ['Una porción de crema ya utilizada se vierte de nuevo en el envase.', 'Un carro impide caminar alrededor de la camilla.', 'La conversación sobre antecedentes se oye desde la sala de espera.', 'Los recipientes permanecen al sol y sin identificación legible.'],
+    ['Privacidad auditiva', 'Contaminación del producto original', 'Conservación e identificación de cosméticos', 'Circulación y acceso seguro'], { a: 'b', b: 'd', c: 'a', d: 'c' },
+    'La auditoría distingue contaminación, circulación, privacidad y conservación. Corregir una categoría no corrige automáticamente las demás.'),
+  blank('cabina', 3,
+    'Completa la entrega de cabina: «Separamos material [1] del utilizado, limpiamos y [2] las superficies, y dejamos la conversación y el cambio de ropa protegidos por la [3]».',
+    [{ label: '[1] Estado del material separado del usado', word: 'limpio' }, { label: '[2] Acción después de limpiar', word: 'desinfectamos' }, { label: '[3] Condición visual y auditiva', word: 'privacidad' }],
+    'El cierre reúne separación de material, atención de superficies y privacidad. La palabra limpiar por sí sola no expresa toda la preparación descrita por el módulo.'),
+  open('cabina', 4,
+    'Audita esta cabina: crema con olor distinto aunque no ha caducado, espátula usada dentro del envase, textiles mezclados, música que impide escuchar y cambio de ropa visible desde la puerta. Propón correcciones y explica qué protegen.',
+    'Retiraría y desecharía el producto alterado y el contenido contaminado, revisando su manejo y almacenamiento. Usaría extracción higiénica sin devolver sobrantes y separaría textiles usados de limpios, preparando los necesarios para cada clienta. Bajaría la música para mantener comunicación. Aseguraría privacidad durante el cambio y la sesión, corrigiendo la visibilidad desde la puerta.',
+    ['Retiré el producto alterado o contaminado sin justificarlo por la fecha de caducidad.', 'Corregí extracción y separación de material para evitar contaminación.', 'Ajusté la música para poder comunicarse con la clienta.', 'Aseguré privacidad visual al cambiarse y durante el servicio.'],
+    'Cada corrección debe vincularse con su propósito: estado del producto, higiene, comunicación o privacidad. Una cabina agradable también debe ser funcional.'),
+];

@@ -1,0 +1,617 @@
+[
+  {
+    "id": "mecanica",
+    "title": "Mecánica corporal y ergonomía",
+    "pages": "2–4 y 21–22",
+    "minutes": 7,
+    "intro": "La técnica empieza por cómo utilizas tu propio cuerpo. Organizar la postura y el espacio permite trabajar con menos fatiga y mayor control de la presión.",
+    "blocks": [
+      {
+        "title": "Dos conceptos que se complementan",
+        "items": [
+          "Ergonomía: adaptar el espacio, los equipos y la forma de trabajo a las características de la profesional. Su objetivo es reducir fatiga y prevenir lesiones musculoesqueléticas.",
+          "Mecánica corporal: utilizar postura, equilibrio, músculos y movimiento para realizar el masaje. La ergonomía organiza las condiciones; la mecánica organiza cómo te mueves."
+        ]
+      },
+      {
+        "title": "Por qué importa en masaje",
+        "items": [
+          "Hay movimientos repetitivos, presión sostenida, trabajo de pie, flexiones del tronco y desplazamientos alrededor de la camilla. Manos, muñecas, hombros y espalda participan continuamente.",
+          "No basta con tolerar la carga: conviene acercarse a la zona, cambiar apoyos y ajustar la camilla para disminuir esfuerzos innecesarios."
+        ]
+      },
+      {
+        "title": "Siete principios del módulo",
+        "items": [
+          "Columna neutra; hombros relajados; cabeza sin adelantarse excesivamente.",
+          "Base de apoyo estable y ligera flexión de rodillas y caderas.",
+          "Usar el peso corporal para la presión y coordinar el movimiento con la respiración."
+        ]
+      },
+      {
+        "title": "Cómo transmitir la presión",
+        "items": [
+          "Alinea hombro, codo y muñeca; acércate a la zona de trabajo.",
+          "Transfiere el peso desde las piernas, mantén contacto gradual y vuelve a la posición inicial sin movimientos bruscos.",
+          "La presión profunda no debe depender solamente de contraer las manos o los brazos. Mayor presión tampoco equivale automáticamente a mejor masaje."
+        ]
+      },
+      {
+        "title": "Altura de la camilla",
+        "items": [
+          "Referencia del módulo: superficie aproximadamente a la altura de la muñeca o ligeramente por debajo de los nudillos, estando de pie. Es un punto de partida que se adapta a la técnica y a la persona.",
+          "Más baja: facilita usar peso corporal, pero puede aumentar la carga lumbar. Demasiado baja obliga a doblar excesivamente la espalda.",
+          "Más alta: favorece maniobras suaves o detalladas. Demasiado alta obliga a elevar hombros y sobrecarga brazos y muñecas."
+        ]
+      }
+    ],
+    "remember": "Piensa: alinear → acercarse → transferir → contactar gradualmente → regresar sin brusquedad.",
+    "recall": [
+      {
+        "question": "¿Ergonomía y mecánica corporal significan lo mismo?",
+        "answer": "No exactamente: la primera adapta el trabajo a la profesional; la segunda describe cómo usa su cuerpo durante el trabajo."
+      },
+      {
+        "question": "Si levantas los hombros para alcanzar la zona, ¿qué revisarías?",
+        "answer": "La altura de la camilla y tu posición. Una camilla demasiado alta puede provocar esa compensación."
+      }
+    ],
+    "notes": [],
+    "images": []
+  },
+  {
+    "id": "posturas",
+    "title": "Las ocho posiciones de trabajo",
+    "pages": "5–20",
+    "minutes": 12,
+    "intro": "Relaciona cada posición con la dirección del movimiento y la zona de trabajo. Las imágenes proceden del módulo; las descripciones te ayudan a comparar.",
+    "blocks": [
+      {
+        "title": "Ataque de esgrima",
+        "items": [
+          "Un pie delante del otro, con ambas rodillas ligeramente flexionadas. Permite transferir peso de atrás hacia adelante.",
+          "Se utiliza para: Deslizamientos longitudinales y maniobras largas en piernas o espalda.",
+          "Clave: Evita flexionar demasiado la rodilla delantera y generar toda la fuerza con brazos y hombros."
+        ]
+      },
+      {
+        "title": "T’ai Chi",
+        "items": [
+          "Pies separados, paralelos o algo hacia afuera; rodillas flexionadas y peso distribuido. El peso acompaña la mano que se acerca a la profesional.",
+          "Se utiliza para: Movimientos laterales, amasamientos amplios y trabajo central de la camilla.",
+          "Clave: Recuerda la transferencia de un lado al otro, sin perder la base estable."
+        ]
+      },
+      {
+        "title": "Flexión de codo",
+        "items": [
+          "Parte del ataque de esgrima. Se flexiona un codo para contactar con el antebrazo; la otra mano puede guiar o estabilizar.",
+          "Se utiliza para: Amasamientos profundos y compresiones en glúteos, muslos o espalda.",
+          "Clave: La presión nace de transferir peso hacia adelante, no de contraer excesivamente el brazo."
+        ]
+      },
+      {
+        "title": "Sentada al borde",
+        "items": [
+          "La profesional se sienta parcialmente y conserva un pie apoyado en el suelo.",
+          "Se utiliza para: Trabajo preciso y de poca presión en brazos, manos, cuello o región superior; reduce tiempo de pie.",
+          "Clave: No es siempre recomendable: especial cuidado con camillas estrechas o plegables y su estabilidad."
+        ]
+      },
+      {
+        "title": "Inclinada",
+        "items": [
+          "Pies próximos a la camilla al ancho de las caderas. Inclinación desde tobillos, con cabeza, columna y pelvis alineadas.",
+          "Se utiliza para: Compresiones breves y trabajo cerca del borde con ambas manos.",
+          "Clave: No confundir inclinar el cuerpo alineado con encorvar la espalda."
+        ]
+      },
+      {
+        "title": "Oscilante",
+        "items": [
+          "Un pie algo adelantado; el peso va rítmicamente hacia adelante y atrás. Las manos mantienen contacto.",
+          "Se utiliza para: Balanceos, deslizamientos rítmicos, amasamientos amplios y maniobras relajantes.",
+          "Clave: El movimiento nace de las piernas; conserva continuidad y un ángulo cómodo de los brazos."
+        ]
+      },
+      {
+        "title": "Semiarrodillada",
+        "items": [
+          "Una rodilla sobre una superficie acolchada y el otro pie al frente; tronco erguido y pelvis alineada.",
+          "Se utiliza para: Camillas bajas, masaje de pies y acceso sin flexionar demasiado la espalda.",
+          "Clave: Protege la rodilla, cambia de pierna y no prolongues la posición. Evítala si tienes una lesión de rodilla."
+        ]
+      },
+      {
+        "title": "Apoyo del antebrazo",
+        "items": [
+          "Adaptación de una postura de ataque, oscilante o lateral: el antebrazo contacta la zona muscular.",
+          "Se utiliza para: Grandes masas musculares y deslizamientos progresivos en espalda, glúteos o muslos; descarga manos y pulgares.",
+          "Clave: No es una postura independiente. Mantén hombro, codo y muñeca relajados; desplaza el cuerpo para presionar."
+        ]
+      }
+    ],
+    "remember": "Esgrima = adelante; T’ai Chi = lateral; oscilante = adelante y atrás. El antebrazo es una superficie de contacto que adapta otras posturas.",
+    "recall": [
+      {
+        "question": "¿Qué diferencia T’ai Chi de la oscilante?",
+        "answer": "En T’ai Chi se destaca el cambio lateral de peso; en la oscilante, el balanceo rítmico hacia adelante y atrás."
+      },
+      {
+        "question": "¿Por qué usar antebrazo puede descargar los pulgares?",
+        "answer": "Permite repartir el contacto y transmitir presión desde el desplazamiento corporal en vez de concentrar el esfuerzo en los dedos."
+      }
+    ],
+    "notes": [],
+    "images": [
+      {
+        "src": "/module-1/postura-5.jpg",
+        "alt": "Ataque de esgrima: ilustración del módulo, página 5",
+        "caption": "Ataque de esgrima · p. 5"
+      },
+      {
+        "src": "/module-1/postura-7.jpg",
+        "alt": "T’ai Chi: ilustración del módulo, página 7",
+        "caption": "T’ai Chi · p. 7"
+      },
+      {
+        "src": "/module-1/postura-9.jpg",
+        "alt": "Flexión de codo: ilustración del módulo, página 9",
+        "caption": "Flexión de codo · p. 9"
+      },
+      {
+        "src": "/module-1/postura-11.jpg",
+        "alt": "Sentada al borde: ilustración del módulo, página 11",
+        "caption": "Sentada al borde · p. 11"
+      },
+      {
+        "src": "/module-1/postura-13.jpg",
+        "alt": "Inclinada: ilustración del módulo, página 13",
+        "caption": "Inclinada · p. 13"
+      },
+      {
+        "src": "/module-1/postura-15.jpg",
+        "alt": "Oscilante: ilustración del módulo, página 15",
+        "caption": "Oscilante · p. 15"
+      },
+      {
+        "src": "/module-1/postura-17.jpg",
+        "alt": "Semiarrodillada: ilustración del módulo, página 17",
+        "caption": "Semiarrodillada · p. 17"
+      },
+      {
+        "src": "/module-1/postura-19.jpg",
+        "alt": "Apoyo del antebrazo: ilustración del módulo, página 19",
+        "caption": "Apoyo del antebrazo · p. 19"
+      }
+    ]
+  },
+  {
+    "id": "preparacion",
+    "title": "Prepararte y colocar al cliente",
+    "pages": "23–24 y 54",
+    "minutes": 6,
+    "intro": "Antes de pensar en una maniobra, comprueba que tu cuerpo esté preparado y que el cliente esté cómodo y bien apoyado.",
+    "blocks": [
+      {
+        "title": "Preparación de 3 a 5 minutos",
+        "items": [
+          "El módulo propone respiración diafragmática y movilidad cervical suave.",
+          "Continúa con círculos de hombros, flexión y extensión de codos, círculos de muñecas y apertura/cierre de manos.",
+          "Añade movilidad torácica, círculos de cadera, flexión suave de rodillas y movilidad de tobillos.",
+          "Termina transfiriendo peso entre los pies y ensayando las posturas que utilizarás."
+        ]
+      },
+      {
+        "title": "Decúbito supino",
+        "items": [
+          "El cliente está boca arriba, con la mirada hacia el techo. La espalda y la parte posterior del cuerpo descansan sobre la superficie.",
+          "Pista para recordar: supino = rostro hacia arriba."
+        ]
+      },
+      {
+        "title": "Decúbito prono",
+        "items": [
+          "El cliente está boca abajo. En el módulo se describe apoyo anterior y cabeza hacia un lado.",
+          "Al colocarlo, prioriza comodidad y alineación del cuello con apoyos adecuados; no fuerces una rotación cervical sostenida."
+        ]
+      },
+      {
+        "title": "Apoyos y comodidad",
+        "items": [
+          "Utiliza cojines, almohadas o rodillos según las necesidades. Mantén cuello y columna alineados.",
+          "Cubre las zonas que no trabajas y descubre únicamente el área necesaria, con autorización."
+        ]
+      },
+      {
+        "title": "Después de una comida abundante",
+        "items": [
+          "El módulo recomienda esperar aproximadamente una a dos horas, sobre todo antes del masaje abdominal. No lo presenta como contraindicación absoluta.",
+          "La razón es evitar náusea, reflujo, pesadez e incomodidad, especialmente boca abajo o con maniobras abdominales. Ajusta según la comodidad de la persona."
+        ]
+      }
+    ],
+    "remember": "Preparación breve + posición cómoda + apoyos + cobertura. Supino: boca arriba. Prono: boca abajo.",
+    "recall": [
+      {
+        "question": "¿Qué incluye la preparación además de mover manos y muñecas?",
+        "answer": "Respiración, movilidad de otras articulaciones, transferencias de peso y ensayo de posturas."
+      },
+      {
+        "question": "¿Por qué posponer un masaje abdominal tras comer mucho?",
+        "answer": "Por comodidad: puede producir náusea, reflujo o pesadez; no es una prohibición absoluta para todo masaje."
+      }
+    ],
+    "notes": [],
+    "images": []
+  },
+  {
+    "id": "historia",
+    "title": "Historia y vocabulario del masaje",
+    "pages": "25–38",
+    "minutes": 10,
+    "intro": "El masaje es la manipulación de tejidos blandos mediante distintas maniobras. Su historia reúne varias culturas; no surgió como una técnica única.",
+    "blocks": [
+      {
+        "title": "Qué es y qué incluye",
+        "items": [
+          "El módulo define maniobras manuales con finalidades de bienestar, relajación o apoyo terapéutico según la preparación y el campo profesional.",
+          "Acciones: presionar, deslizar, amasar, friccionar, percutir y movilizar tejidos. Antes de elegir técnica se consideran objetivos, precauciones y contraindicaciones."
+        ]
+      },
+      {
+        "title": "Asia",
+        "items": [
+          "China: el material menciona el Kong-Fou y la combinación de trabajo corporal, ejercicio y hierbas.",
+          "Japón: el Anma recibió influencia china y emplea presiones, amasamientos, fricciones y movilizaciones, principalmente sobre ropa. Shiatsu significa “presión con los dedos”; usa dedos, pulgares y palmas en puntos llamados tradicionalmente tsubos.",
+          "India: el Ayurveda integra alimentación, plantas, aceites, higiene y estilo de vida. Abhyanga es el masaje con aceites dentro de estas rutinas."
+        ]
+      },
+      {
+        "title": "Egipto, Grecia y Roma",
+        "items": [
+          "Egipto: el módulo relaciona el masaje con representaciones de manos y pies, aceites, ungüentos y prácticas de cuidado; también cita el Papiro de Smith.",
+          "Grecia: ejercicio, atletas, higiene, aceites y recuperación corporal. Hipócrates escribió sobre fricciones y técnicas manuales.",
+          "Roma: baños y espacios de cuidado corporal; Galeno relacionó ejercicio, masaje e higiene con la salud."
+        ]
+      },
+      {
+        "title": "Edad Media y Renacimiento",
+        "items": [
+          "En Europa disminuyó la difusión formal de algunas prácticas, mientras otras culturas, especialmente asiáticas y árabes, conservaron y desarrollaron conocimientos.",
+          "En el Renacimiento volvió a aumentar el interés europeo por la anatomía y el cuerpo."
+        ]
+      },
+      {
+        "title": "Ling y Mezger: no los confundas",
+        "items": [
+          "Per Henrik Ling desarrolló en el siglo XIX la gimnasia sueca, integrando ejercicio, movimiento y anatomía; influyó en el masaje clásico, sin inventar por sí solo todas sus maniobras.",
+          "Johann Georg Mezger ayudó a organizar y difundir maniobras con términos franceses.",
+          "Effleurage = deslizamiento. Pétrissage = amasamiento. Friction = fricción. Tapotement = percusión. El masaje sueco también incluye vibraciones."
+        ]
+      },
+      {
+        "title": "Siglos XX y XXI",
+        "items": [
+          "El masaje se incorpora a bienestar, deporte, rehabilitación, spa, estética y cosmetología. Es una familia de métodos con objetivos e intensidades diferentes.",
+          "La formación moderna incluye anatomía, fisiología, indicaciones, higiene, valoración, consentimiento, mecánica corporal, límites profesionales, registro y seguimiento."
+        ]
+      }
+    ],
+    "remember": "Ling: gimnasia y movimiento. Mezger: organización de maniobras y nombres franceses. Shiatsu: dedos; Abhyanga: aceites.",
+    "recall": [
+      {
+        "question": "¿Quién se vincula a la terminología francesa del masaje clásico?",
+        "answer": "Mezger; Ling se relaciona con el sistema de gimnasia sueca."
+      },
+      {
+        "question": "¿Cuáles son las cuatro equivalencias francesas?",
+        "answer": "Effleurage: deslizar; pétrissage: amasar; friction: friccionar; tapotement: percutir."
+      }
+    ],
+    "notes": [
+      {
+        "title": "Cronología que conviene contrastar con la docente",
+        "text": "El PDF asigna fechas muy antiguas al Kong-Fou y al Papiro de Smith sin bibliografía. Se conservan sus asociaciones culturales, pero estas fechas no se convierten en respuestas obligatorias del quiz. Pide la referencia histórica si tu examen exige fechas exactas."
+      }
+    ],
+    "images": []
+  },
+  {
+    "id": "tipos",
+    "title": "Tipos de masaje y sus límites",
+    "pages": "39–41",
+    "minutes": 8,
+    "intro": "Distingue el objetivo del servicio y el medio utilizado. Conocer una técnica no equivale a estar habilitada para tratar una enfermedad.",
+    "blocks": [
+      {
+        "title": "Estético y terapéutico",
+        "items": [
+          "Estético: el módulo describe maniobras metódicas y rítmicas sobre tejidos blandos, orientadas al cuidado corporal. En esta guía, su finalidad se delimita a bienestar y objetivos estéticos dentro de la formación recibida.",
+          "Terapéutico: se sitúa en un contexto sanitario y persigue objetivos relacionados con problemas de salud, con preparación y competencias adecuadas.",
+          "La valoración estética no es un diagnóstico médico. Detectar un motivo de derivación también forma parte del trabajo responsable."
+        ]
+      },
+      {
+        "title": "Manual: intervienen las manos de la profesional",
+        "items": [
+          "Clásico o sueco: deslizamientos, amasamientos, fricciones, percusiones y vibraciones sobre tejidos blandos.",
+          "Drenaje linfático manual: técnica vinculada a la anatomía y funcionamiento del sistema linfático. No equivale a un amasamiento profundo ni se indica automáticamente ante cualquier hinchazón.",
+          "Oriental o energético: el módulo expone modelos tradicionales de energía y meridianos. Son marcos tradicionales, no una demostración de efectos clínicos.",
+          "Reflexología: presión sobre puntos de manos o pies que, según su tradición, se relacionan con otras zonas del cuerpo."
+        ]
+      },
+      {
+        "title": "No manual: intervienen equipos",
+        "items": [
+          "Vibromasaje: equipos de vibración o percusión, con posibles funciones de calor o frío según el aparato.",
+          "Vacuumterapia: succión mediante ventosas o aplicadores de vacío.",
+          "Presoterapia: compresión neumática. No confundas la compresión externa con la succión de la vacuumterapia.",
+          "Ultrasonido: energía acústica generada por un equipo; requiere formación e indicaciones específicas.",
+          "Hidromasaje: agua mediante duchas, chorros, burbujas o remolinos."
+        ]
+      },
+      {
+        "title": "Qué recordar sobre los equipos",
+        "items": [
+          "No todos los aparatos funcionan igual ni tienen las mismas indicaciones, contraindicaciones o riesgos.",
+          "El listado del PDF es una clasificación introductoria; no es un protocolo de aplicación ni especifica parámetros seguros de cada dispositivo."
+        ]
+      }
+    ],
+    "remember": "Manual = manos. No manual = equipo. Antes de elegir: objetivo, valoración, competencia y contraindicaciones.",
+    "recall": [
+      {
+        "question": "¿Un equipo de ventosas y uno de compresión neumática son equivalentes?",
+        "answer": "No. La vacuumterapia usa succión; la presoterapia usa compresión neumática."
+      },
+      {
+        "question": "¿Es correcto presentar la reflexología como tratamiento demostrado de órganos a distancia?",
+        "answer": "No. Esa correspondencia pertenece a su modelo tradicional; no debe presentarse como un efecto demostrado."
+      }
+    ],
+    "notes": [
+      {
+        "title": "Aclaración sobre reflexología",
+        "text": "El NCCIH explica que la supuesta curación de otras partes del cuerpo mediante estos puntos no está demostrada. Se estudia la definición de la técnica sin prometer tratamiento de órganos.",
+        "url": "https://www.nccih.nih.gov/health/reflexology",
+        "label": "NCCIH · Reflexología"
+      },
+      {
+        "title": "Aclaración del material",
+        "text": "La página 40 reúne presión positiva y negativa bajo presoterapia. Para evitar confusiones, aquí se distingue la compresión neumática de la succión o vacío; verifica la terminología que utiliza tu docente."
+      }
+    ],
+    "images": []
+  },
+  {
+    "id": "efectos",
+    "title": "Efectos del masaje: entender y matizar",
+    "pages": "42–48",
+    "minutes": 9,
+    "intro": "Aprende los efectos que menciona el material y distingue una posible respuesta de una promesa universal. La técnica, la intensidad y la situación de la persona importan.",
+    "blocks": [
+      {
+        "title": "Piel",
+        "items": [
+          "El PDF describe aumento de temperatura e hiperemia local (mayor afluencia de sangre), arrastre mecánico de células superficiales y cambios en secreción sebácea y sudoral.",
+          "Menciona un aumento de 2–3 °C y mayor suavidad o flexibilidad. Ese número es un dato del módulo, no una respuesta fija garantizada en toda persona o técnica.",
+          "La expresión “respiración insensible” del PDF es imprecisa: no debe interpretarse como que la piel sustituye la respiración pulmonar."
+        ]
+      },
+      {
+        "title": "Circulación y linfa",
+        "items": [
+          "El módulo vincula el efecto mecánico con circulación local, sensación de ligereza y drenaje.",
+          "También menciona edema y apoyo en linfedema. Esos problemas exigen valorar la causa y trabajar dentro de un plan apropiado, no aplicar masaje a cualquier inflamación."
+        ]
+      },
+      {
+        "title": "Músculos, articulaciones y huesos",
+        "items": [
+          "El texto relaciona maniobras lentas y rítmicas con relajación muscular, y estímulos más rápidos con una respuesta estimulante.",
+          "Menciona además nutrición ósea, reabsorción de líquidos articulares y producción de líquido sinovial. No tomes estas frases como garantía clínica ni como autorización para tratar una lesión."
+        ]
+      },
+      {
+        "title": "Tejido adiposo",
+        "items": [
+          "La página 46 afirma una reducción localizada del panículo adiposo a largo plazo. Esta guía no enseña esa afirmación como resultado garantizado.",
+          "Un cambio temporal en la apariencia de la piel o en una medida corporal no demuestra por sí mismo pérdida de grasa."
+        ]
+      },
+      {
+        "title": "Sistema nervioso",
+        "items": [
+          "El módulo destaca bienestar, descanso y menor sensación de estrés. Las maniobras lentas y rítmicas se presentan como relajantes; las rápidas y breves, como estimulantes.",
+          "La palabra “anestesia” del texto es demasiado categórica: no significa que el masaje bloquee los nervios ni que deba provocar pérdida de sensibilidad."
+        ]
+      },
+      {
+        "title": "Digestivo y excretor",
+        "items": [
+          "El PDF menciona peristaltismo, estreñimiento funcional y relajación de la pared abdominal. No sustituye una valoración de síntomas digestivos.",
+          "La afirmación de aumento del filtrado renal y de la orina no se utiliza aquí como beneficio demostrado ni objetivo del masaje. Requiere una fuente específica que el PDF no proporciona."
+        ]
+      },
+      {
+        "title": "Vocabulario que te ayuda a entender",
+        "items": [
+          "Edema: acumulación de líquido en los tejidos. Linfa: líquido que circula por el sistema linfático.",
+          "Panículo adiposo: capa de tejido graso bajo la piel. Capa córnea: parte más superficial de la epidermis.",
+          "Líquido sinovial: líquido que lubrica las articulaciones sinoviales. Peristaltismo: contracciones coordinadas que desplazan el contenido del tubo digestivo."
+        ]
+      }
+    ],
+    "remember": "Beneficio posible ≠ efecto universal. Relajación, apariencia de la piel y pérdida de grasa son conceptos distintos.",
+    "recall": [
+      {
+        "question": "¿Por qué una reducción de contorno no demuestra pérdida de grasa?",
+        "answer": "Porque las medidas y la apariencia pueden variar sin demostrar reducción del tejido adiposo."
+      },
+      {
+        "question": "¿Qué diferencia hay entre relajación y anestesia?",
+        "answer": "Relajarse no equivale a perder sensibilidad ni a bloquear la conducción nerviosa."
+      }
+    ],
+    "notes": [
+      {
+        "title": "Evidencia complementaria: apariencia de celulitis",
+        "text": "La FDA describe que ciertos dispositivos mecánicos de masaje o vibración pueden mejorar temporalmente la apariencia de la celulitis. Esto no equivale a perder peso ni justifica prometer eliminación de grasa por masaje manual.",
+        "url": "https://www.fda.gov/medical-devices/aesthetic-cosmetic-devices/non-invasive-body-contouring-technologies",
+        "label": "FDA · Contorno corporal no invasivo"
+      },
+      {
+        "title": "Alcance de los beneficios",
+        "text": "El NCCIH señala que la evidencia y la duración de los beneficios varían según el problema estudiado. El masaje no debe usarse para retrasar la consulta médica.",
+        "url": "https://www.nccih.nih.gov/health/massage-therapy-what-you-need-to-know",
+        "label": "NCCIH · Masaje"
+      }
+    ],
+    "images": []
+  },
+  {
+    "id": "seguridad",
+    "title": "Valoración, precauciones y consentimiento",
+    "pages": "38 y 49–54",
+    "minutes": 10,
+    "intro": "Antes de comenzar, pregunta, observa y acuerda el procedimiento. La decisión de adaptar, posponer o derivar es tan importante como saber una maniobra.",
+    "blocks": [
+      {
+        "title": "Valoración previa",
+        "items": [
+          "Revisa antecedentes médicos, cirugías, síntomas actuales, estado de la piel, objetivos y expectativas. Identifica las zonas que no deben tocarse y la presión tolerada.",
+          "El PDF usa “diagnóstico”; para la cosmetóloga se entiende aquí como valoración estética y detección de motivos de derivación, sin diagnosticar enfermedades."
+        ]
+      },
+      {
+        "title": "Situaciones mencionadas en el módulo",
+        "items": [
+          "Vasculares: trombosis venosa profunda, enfermedad arterial periférica, flebitis y várices. No tienen todas el mismo riesgo ni se resuelven simplemente bajando la presión.",
+          "Sistémicas: cáncer, insuficiencia cardiaca, presión arterial no controlada, diabetes no controlada, fiebre e inflamación de ganglios.",
+          "Piel y tejidos: heridas recientes, quemaduras, infecciones, erupciones, eczema, dermatitis, hematomas y dolor localizado.",
+          "También menciona embarazo, lactancia y menstruación. Son circunstancias para preguntar y adaptar; no deben convertirse en una prohibición automática universal."
+        ]
+      },
+      {
+        "title": "Detener, adaptar o derivar",
+        "items": [
+          "Ante sospecha de trombosis, no masajees la zona y solicita valoración médica. El masaje no es una forma de comprobar si existe un coágulo.",
+          "Una infección activa, fiebre, herida o dolor no explicado requieren valorar la situación y posponer el trabajo afectado; evita improvisar un tratamiento.",
+          "El antecedente de cáncer no implica que todo masaje esté prohibido, pero puede requerir coordinación sanitaria, formación específica y modificaciones."
+        ]
+      },
+      {
+        "title": "Consentimiento que se mantiene durante la sesión",
+        "items": [
+          "Explica qué harás y en qué zonas. Pregunta qué partes no desea que toques y acuerda la intensidad.",
+          "La persona puede detener el procedimiento en cualquier momento. Una autorización inicial no permite ignorar un cambio de opinión.",
+          "Solicita consentimiento informado cuando corresponda y comunica de forma respetuosa. Registra y da seguimiento según tu práctica y formación."
+        ]
+      },
+      {
+        "title": "Caso para pensar",
+        "items": [
+          "Una clienta acepta masaje de espalda, pero no de abdomen. El servicio se limita a las zonas autorizadas. No se amplía el tratamiento porque “le conviene”.",
+          "Si el cliente comunica dolor con la presión acordada, detén o adapta la maniobra y vuelve a comprobar su comodidad."
+        ]
+      }
+    ],
+    "remember": "Preguntar → valorar → explicar → acordar → comprobar durante la sesión. Consentir es un proceso, no una única firma.",
+    "recall": [
+      {
+        "question": "¿Puedes seguir si la persona pide detenerte aunque ya haya consentido?",
+        "answer": "No. Puede retirar su consentimiento en cualquier momento."
+      },
+      {
+        "question": "¿Trombosis y menstruación deben tratarse como precauciones equivalentes?",
+        "answer": "No. El listado reúne situaciones de naturaleza y riesgo diferentes; una sospecha de trombosis exige evitar el masaje y valoración médica."
+      }
+    ],
+    "notes": [
+      {
+        "title": "Seguridad: fuente complementaria",
+        "text": "Mayo Clinic aconseja consultar al equipo de salud ante coágulos recientes, trastornos de sangrado, anticoagulantes, quemaduras, fracturas u osteoporosis grave. La presión no debe causar dolor importante.",
+        "url": "https://www.mayoclinic.org/tests-procedures/massage-therapy/about/pac-20384595",
+        "label": "Mayo Clinic · Masaje"
+      },
+      {
+        "title": "Cáncer: una valoración individual",
+        "text": "El NCCIH describe el masaje como posible apoyo con precauciones y ajustes adecuados en pacientes con cáncer; no es un tratamiento del cáncer.",
+        "url": "https://www.nccih.nih.gov/health/massage-therapy-what-you-need-to-know",
+        "label": "NCCIH · Masaje y cuidados de apoyo"
+      }
+    ],
+    "images": []
+  },
+  {
+    "id": "cabina",
+    "title": "Higiene, cosméticos y cabina",
+    "pages": "55–63",
+    "minutes": 9,
+    "intro": "Una cabina profesional combina higiene, seguridad, funcionalidad, comodidad y privacidad. La presentación agradable acompaña estos requisitos.",
+    "blocks": [
+      {
+        "title": "Higiene de la profesional",
+        "items": [
+          "Lava tus manos antes y después del servicio; mantén las uñas cortas y retira anillos, pulseras y reloj.",
+          "Cubre tus heridas. Evita atender si tienes una infección transmisible.",
+          "Limpia y desinfecta la camilla y las superficies; usa textiles limpios para cada cliente."
+        ]
+      },
+      {
+        "title": "Espacio seguro y funcional",
+        "items": [
+          "Deja espacio para circular alrededor de la camilla, buena ventilación, iluminación y temperatura confortable.",
+          "Superficies lisas, resistentes y fáciles de limpiar; piso firme, limpio y antideslizante. Mobiliario en buen estado e instalación eléctrica segura.",
+          "Asegura privacidad visual y auditiva, acceso cercano al lavado de manos y contenedores de residuos. Separa material limpio del utilizado."
+        ]
+      },
+      {
+        "title": "Manejo de cosméticos",
+        "items": [
+          "Conserva productos cerrados, etiquetados y vigentes. Almacena según el fabricante y protege del calor, humedad y luz directa.",
+          "Extrae con espátula o dispensador; no vuelvas a introducir manos contaminadas ni regreses sobrantes al envase original.",
+          "Prepara solo lo necesario. Desecha productos que cambien de olor, color o textura, aunque no haya llegado su caducidad."
+        ]
+      },
+      {
+        "title": "Ambiente de cabina",
+        "items": [
+          "El módulo propone aproximadamente 22–24 °C como referencia de confort, adaptada al cliente.",
+          "Ventila entre servicios y evita corrientes de aire directo sobre la persona. Usa luz suficiente para valorar la piel y más tenue durante el masaje si es apropiado.",
+          "Música suave y baja. Antes de usar aromas, pregunta por alergias, asma o migraña; modera su intensidad.",
+          "El módulo recomienda evitar velas encendidas y ozono como aromatizante."
+        ]
+      },
+      {
+        "title": "Privacidad y preparación del cliente",
+        "items": [
+          "Ofrece una bata limpia, explica la posición y cómo cubrirse, y da privacidad para cambiarse.",
+          "Expón solo la zona necesaria; cubre las demás. Utiliza apoyos y mantén una comunicación profesional.",
+          "El PDF propone ropa interior desechable. Esto se ofrece según el servicio y la comodidad de la persona: no obliga a retirar su ropa interior ni sustituye su consentimiento."
+        ]
+      },
+      {
+        "title": "Antes de recibir a la siguiente persona",
+        "items": [
+          "Comprueba textiles limpios, superficies atendidas, material usado separado, cosméticos cerrados y circulación despejada.",
+          "Revisa ventilación, temperatura, privacidad y disponibilidad de lavado de manos. Una cabina bonita no compensa fallas de higiene."
+        ]
+      }
+    ],
+    "remember": "Limpio separado de usado. Producto fuera del envase no vuelve. Se descubre solo lo necesario y autorizado.",
+    "recall": [
+      {
+        "question": "¿Qué haces con crema sobrante de una porción utilizada?",
+        "answer": "No devolverla al envase original: esa práctica puede contaminar su contenido."
+      },
+      {
+        "question": "¿Puede negarse a quitarse la ropa interior?",
+        "answer": "Sí. Se respeta su comodidad y consentimiento; se adapta el servicio y la cobertura."
+      }
+    ],
+    "notes": [],
+    "images": []
+  }
+]
